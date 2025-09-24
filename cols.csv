@@ -11,16 +11,8 @@ ACS_DVC_SRL_NUM,Tokenized - Represents the serial number associated with device
 ACTV_30_DYS,Indicates whether the customer was active in last 30 days
 ACTV_60_DYS,Indicates whether the customer was active in last 60 days
 ACTV_90_DYS,Indicates whether the customer was active in last 90 days
-ACTV_DYS_DATA,"Indicates Number of Active Days of Data events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-ACTV_DYS_IDD,"Indicates Number of Active Days of International(IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+ACTV_DYS_DATA,Indicates Number of Active Days of Data events within a given month.
+ACTV_DYS_IDD,Indicates Number of Active Days of International(IDD) Voice events within a given month.
 ACTVN_DT,Subscription Activation date sourcing from the CRM System with format YYYY-MM-DD HH:MM:SS
 ADD_ON_ELIFE_FLG,Flag represents if customer added Add Ons for Elife Postpaid service with Value N or Y
 ADD_ON_ELIFE_VAL,Indicates the total value of the active Elife addons as of end of the snapshot month.
@@ -359,11 +351,7 @@ DATA_MOU_FREE_M3,"Indicates Total Volume of  Data events within a given month.
 M1: Snapshot month
 M2: Snapshot month minus 1
 M3: Snapshot month - 2"
-DATA_MOU_FREE_M6,"Indicates Total Volume of  Data events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+DATA_MOU_FREE_M6,Indicates Total Volume of  Data events within a given month.
 DATA_MOU_FREE_WK1,"Indicates Total Volume of  Data events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -403,21 +391,9 @@ DATA_MOU_IB_WK1,Data in bundle volume
 DATA_MOU_IB_WK2,Data in bundle volume
 DATA_MOU_IB_WK3,Data in bundle volume
 DATA_MOU_IB_WK4,Data in bundle volume
-DATA_MOU_M1,"Indicates Total Volume of  Data events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-DATA_MOU_M3,"Indicates Total Volume of  Data events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-DATA_MOU_M6,"Indicates Total Volume of  Data events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+DATA_MOU_M1,Indicates Total Volume of  Data events within a given month.
+DATA_MOU_M3,Indicates Total Volume of  Data events within a given month.
+DATA_MOU_M6,Indicates Total Volume of  Data events within a given month.
 DATA_MOU_NAT_CHRG_M1,Data National Charged Volume
 DATA_MOU_NAT_FREE_M1,Data National Free Volume
 DATA_MOU_NAT_M1,Data National Overall Volume
@@ -464,21 +440,9 @@ WK3: From 15th till 21st day of the snapshot month
 WK4: From 22nd till end of the snapshot month
 WKDAY_M1: All week days (Sun - Thu) of the snapshot month
 W"
-DATA_REV_M1,"Indicates Total Revenue of  Data events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-DATA_REV_M3,"Indicates Total Revenue of  Data events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-DATA_REV_M6,"Indicates Total Revenue of  Data events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+DATA_REV_M1,Indicates Total Revenue of  Data events within a given month.
+DATA_REV_M3,Indicates Total Revenue of  Data events within a given month.
+DATA_REV_M6,Indicates Total Revenue of  Data events within a given month.
 DATA_REV_NAT_M1,Data Revenue National
 DATA_REV_ROAM_M1,Data Revenue Roaming
 DATA_REV_ROAM_M3,Data Revenue Roaming
@@ -520,21 +484,9 @@ WK3: From 15th till 21st day of the snapshot month
 WK4: From 22nd till end of the snapshot month
 WKDAY_M1: All week days (Sun - Thu) of the snapshot month
 W"
-DATA_REV_WKDAY_M1,"Indicates Total Revenue of  Data events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-DATA_REV_WKEND_M1,"Indicates Total Revenue of  Data events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-DATA_SESSN_CNT_M1,"Indicates Number of Occurences of  Data events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+DATA_REV_WKDAY_M1,Indicates Total Revenue of  Data events within a given month.
+DATA_REV_WKEND_M1,Indicates Total Revenue of  Data events within a given month.
+DATA_SESSN_CNT_M1,Indicates Number of Occurences of  Data events within a given month.
 DATA_UNKNOWN_MB_M1,Data Usage Uknown Technology
 DATA_UNKNOWN_MB_M1_GS,Data Usage Uknown Technology Prepaid
 DATA_UNKNOWN_MB_M1_WS,Data Usage Uknown Technology Postpaid
@@ -857,56 +809,16 @@ SO_CNT_IB_WK4,In-Bundle SMS Count
 SO_CNT_M1,Indicates number of occurences of SMS events for customers
 SO_CNT_M3,Indicates number of occurences of SMS events for customers
 SO_CNT_M6,Indicates number of occurences of SMS events for customers
-SO_CNT_OFFNT_M1,"Indicates Number of Occurences of  SMS off net events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_CNT_OFFNT_M3,"Indicates Number of Occurences of  SMS off net events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_CNT_OFFNT_M6,"Indicates Number of Occurences of  SMS off net events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_CNT_OFFNT_WK1,"Indicates Number of Occurences of  SMS off net events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_CNT_OFFNT_WK2,"Indicates Number of Occurences of  SMS off net events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_CNT_OFFNT_WK3,"Indicates Number of Occurences of  SMS off net events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_CNT_OFFNT_WK4,"Indicates Number of Occurences of  SMS off net events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_CNT_ONNT_M1,"Indicates Number of Occurences of  SMS Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_CNT_ONNT_M3,"Indicates Number of Occurences of  SMS Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_CNT_ONNT_M6,"Indicates Number of Occurences of  SMS Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+SO_CNT_OFFNT_M1,Indicates Number of Occurences of  SMS off net events within a given month.
+SO_CNT_OFFNT_M3,Indicates Number of Occurences of  SMS off net events within a given month.
+SO_CNT_OFFNT_M6,Indicates Number of Occurences of  SMS off net events within a given month.
+SO_CNT_OFFNT_WK1,Indicates Number of Occurences of  SMS off net events within a given month.
+SO_CNT_OFFNT_WK2,Indicates Number of Occurences of  SMS off net events within a given month.
+SO_CNT_OFFNT_WK3,Indicates Number of Occurences of  SMS off net events within a given month.
+SO_CNT_OFFNT_WK4,Indicates Number of Occurences of  SMS off net events within a given month.
+SO_CNT_ONNT_M1,Indicates Number of Occurences of  SMS Onnet events within a given month.
+SO_CNT_ONNT_M3,Indicates Number of Occurences of  SMS Onnet events within a given month.
+SO_CNT_ONNT_M6,Indicates Number of Occurences of  SMS Onnet events within a given month.
 SO_CNT_ONNT_WK1,"Indicates Number of Occurences of  SMS Onnet events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -987,21 +899,9 @@ WK3: From 15th till 21st day of the snapshot month
 WK4: From 22nd till end of the snapshot month
 WKDAY_M1: All week days (Sun - Thu) of the snapshot month
 W"
-SO_IDD_CNT_M1,"Indicates Number of Occurences of SMS International events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_IDD_CNT_M3,"Indicates Number of Occurences of SMS International events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_IDD_CNT_M6,"Indicates Number of Occurences of SMS International events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+SO_IDD_CNT_M1,Indicates Number of Occurences of SMS International events within a given month.
+SO_IDD_CNT_M3,Indicates Number of Occurences of SMS International events within a given month.
+SO_IDD_CNT_M6,Indicates Number of Occurences of SMS International events within a given month.
 SO_IDD_CNT_WK1,"Indicates Number of Occurences of SMS International events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -1034,21 +934,9 @@ WK3: From 15th till 21st day of the snapshot month
 WK4: From 22nd till end of the snapshot month
 WKDAY_M1: All week days (Sun - Thu) of the snapshot month
 W"
-SO_IDD_REV_M1,"Indicates Total Revenue of SMS International events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_IDD_REV_M3,"Indicates Total Revenue of SMS International events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_IDD_REV_M6,"Indicates Total Revenue of SMS International events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+SO_IDD_REV_M1,Indicates Total Revenue of SMS International events within a given month.
+SO_IDD_REV_M3,Indicates Total Revenue of SMS International events within a given month.
+SO_IDD_REV_M6,Indicates Total Revenue of SMS International events within a given month.
 SO_IDD_REV_WK1,"Indicates Total Revenue of SMS International events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -1081,71 +969,19 @@ WK3: From 15th till 21st day of the snapshot month
 WK4: From 22nd till end of the snapshot month
 WKDAY_M1: All week days (Sun - Thu) of the snapshot month
 W"
-SO_REV_M1,"Indicates Total Revenue of SMS Local events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_REV_M3,"Indicates Total Revenue of SMS Local events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_REV_M6,"Indicates Total Revenue of SMS Local events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_REV_OFFNT_M1,"Indicates Total Revenue of SMS Local Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_REV_OFFNT_M3,"Indicates Total Revenue of SMS Local Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_REV_OFFNT_M6,"Indicates Total Revenue of SMS Local Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_REV_OFFNT_WK1,"Indicates Total Revenue of SMS Local Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_REV_OFFNT_WK2,"Indicates Total Revenue of SMS Local Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_REV_OFFNT_WK3,"Indicates Total Revenue of SMS Local Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_REV_OFFNT_WK4,"Indicates Total Revenue of SMS Local Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_REV_ONNT_M1,"Indicates Total Revenue of SMS Local ONnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_REV_ONNT_M3,"Indicates Total Revenue of SMS Local ONnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-SO_REV_ONNT_M6,"Indicates Total Revenue of SMS Local ONnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+SO_REV_M1,Indicates Total Revenue of SMS Local events within a given month.
+SO_REV_M3,Indicates Total Revenue of SMS Local events within a given month.
+SO_REV_M6,Indicates Total Revenue of SMS Local events within a given month.
+SO_REV_OFFNT_M1,Indicates Total Revenue of SMS Local Offnet events within a given month.
+SO_REV_OFFNT_M3,Indicates Total Revenue of SMS Local Offnet events within a given month.
+SO_REV_OFFNT_M6,Indicates Total Revenue of SMS Local Offnet events within a given month.
+SO_REV_OFFNT_WK1,Indicates Total Revenue of SMS Local Offnet events within a given month.
+SO_REV_OFFNT_WK2,Indicates Total Revenue of SMS Local Offnet events within a given month.
+SO_REV_OFFNT_WK3,Indicates Total Revenue of SMS Local Offnet events within a given month.
+SO_REV_OFFNT_WK4,Indicates Total Revenue of SMS Local Offnet events within a given month.
+SO_REV_ONNT_M1,Indicates Total Revenue of SMS Local ONnet events within a given month.
+SO_REV_ONNT_M3,Indicates Total Revenue of SMS Local ONnet events within a given month.
+SO_REV_ONNT_M6,Indicates Total Revenue of SMS Local ONnet events within a given month.
 SO_REV_ONNT_WK1,"Indicates Total Revenue of SMS Local ONnet events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -1178,11 +1014,7 @@ WK3: From 15th till 21st day of the snapshot month
 WK4: From 22nd till end of the snapshot month
 WKDAY_M1: All week days (Sun - Thu) of the snapshot month
 W"
-SO_REV_VAT_M1,"Indicates Total Revenue of SMS VAT events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+SO_REV_VAT_M1,Indicates Total Revenue of SMS VAT events within a given month.
 SO_REV_WK1,"Indicates Total Revenue of SMS local events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -1367,115 +1199,23 @@ VCHR_DWN_AVG_M3,Voucher Downloaded Average in 3 months
 VCHR_DWN_CNT,Voucher Downloaded Count
 VCHR_EXPRD_CNT_M1,Voucher Expired Count
 VCHR_RDMPTN_AVG_M3,Voucher Redeemed Average in 3 months
-VI_CNT_M1,"Indicates Number of Occurences of Incoming Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VI_DUR_M1,"Indicates Duration (Seconds) of Incoming Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VI_DUR_M1_2,"Indicates Duration (Seconds) of Incoming Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_CHRG_M1,"Indicates Number of Occurences of Charged Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_CHRG_M3,"Indicates Number of Occurences of Charged Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_CHRG_M6,"Indicates Number of Occurences of Charged Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_CHRG_WK1,"Indicates Number of Occurences of Charged Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_CHRG_WK2,"Indicates Number of Occurences of Charged Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_CHRG_WK3,"Indicates Number of Occurences of Charged Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_CHRG_WK4,"Indicates Number of Occurences of Charged Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_FREE_M1,"Indicates Number of Occurences of Free Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_FREE_M3,"Indicates Number of Occurences of Free Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_FREE_M6,"Indicates Number of Occurences of Free Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_FREE_WK1,"Indicates Number of Occurences of Free Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_FREE_WK2,"Indicates Number of Occurences of Free Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_FREE_WK3,"Indicates Number of Occurences of Free Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_FREE_WK4,"Indicates Number of Occurences of Free Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+VI_CNT_M1,Indicates Number of Occurences of Incoming Voice events within a given month.
+VI_DUR_M1,Indicates Duration (Seconds) of Incoming Voice events within a given month.
+VI_DUR_M1_2,Indicates Duration (Seconds) of Incoming Voice events within a given month.
+VO_CNT_CHRG_M1,Indicates Number of Occurences of Charged Local Voice events within a given month.
+VO_CNT_CHRG_M3,Indicates Number of Occurences of Charged Local Voice events within a given month.
+VO_CNT_CHRG_M6,Indicates Number of Occurences of Charged Local Voice events within a given month.
+VO_CNT_CHRG_WK1,Indicates Number of Occurences of Charged Local Voice events within a given month.
+VO_CNT_CHRG_WK2,Indicates Number of Occurences of Charged Local Voice events within a given month.
+VO_CNT_CHRG_WK3,Indicates Number of Occurences of Charged Local Voice events within a given month.
+VO_CNT_CHRG_WK4,Indicates Number of Occurences of Charged Local Voice events within a given month.
+VO_CNT_FREE_M1,Indicates Number of Occurences of Free Local Voice events within a given month.
+VO_CNT_FREE_M3,Indicates Number of Occurences of Free Local Voice events within a given month.
+VO_CNT_FREE_M6,Indicates Number of Occurences of Free Local Voice events within a given month.
+VO_CNT_FREE_WK1,Indicates Number of Occurences of Free Local Voice events within a given month.
+VO_CNT_FREE_WK2,Indicates Number of Occurences of Free Local Voice events within a given month.
+VO_CNT_FREE_WK3,Indicates Number of Occurences of Free Local Voice events within a given month.
+VO_CNT_FREE_WK4,Indicates Number of Occurences of Free Local Voice events within a given month.
 VO_CNT_IB_M1,Voice Incoming In Bundle Count
 VO_CNT_IB_M3,Voice Incoming In Bundle Count
 VO_CNT_IB_M6,Voice Incoming In Bundle Count
@@ -1483,178 +1223,32 @@ VO_CNT_IB_WK1,Voice Incoming In Bundle Count
 VO_CNT_IB_WK2,Voice Incoming In Bundle Count
 VO_CNT_IB_WK3,Voice Incoming In Bundle Count
 VO_CNT_IB_WK4,Voice Incoming In Bundle Count
-VO_CNT_M1,"Indicates Number of Occurences of Total Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_M3,"Indicates Number of Occurences of Total Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_M6,"Indicates Number of Occurences of Total Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_OFFNT_M1,"Indicates Number of Occurences of Local Voice Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_OFFNT_M3,"Indicates Number of Occurences of Local Voice Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_OFFNT_M6,"Indicates Number of Occurences of Local Voice Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_OFFNT_WK1,"Indicates Number of Occurences of Local Voice Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_OFFNT_WK2,"Indicates Number of Occurences of Local Voice Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_OFFNT_WK3,"Indicates Number of Occurences of Local Voice Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_OFFNT_WK4,"Indicates Number of Occurences of Local Voice Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_ONNT_M1,"Indicates Number of Occurences of Local Voice Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_ONNT_M3,"Indicates Number of Occurences of Local Voice Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_ONNT_M6,"Indicates Number of Occurences of Local Voice Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CNT_ONNT_WK1,"Indicates Number of Occurences of Local Voice Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_ONNT_WK2,"Indicates Number of Occurences of Local Voice Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_ONNT_WK3,"Indicates Number of Occurences of Local Voice Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_ONNT_WK4,"Indicates Number of Occurences of Local Voice Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_WK1,"Indicates Number of Occurences of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_WK2,"Indicates Number of Occurences of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_WK3,"Indicates Number of Occurences of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_WK4,"Indicates Number of Occurences of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_WKDAY_M1,"Indicates Number of Occurences of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CNT_WKEND_M1,"Indicates Number of Occurences of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_CUG_CNT_CHRG_M1,"Indicates Number of Occurences of Total Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_CNT_CHRG_M3,"Indicates Number of Occurences of Total Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_CNT_CHRG_M6,"Indicates Number of Occurences of Total Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_CNT_M1,Indicates Number of Occurences of Total Local Voice events within a given month.
+VO_CNT_M3,Indicates Number of Occurences of Total Local Voice events within a given month.
+VO_CNT_M6,Indicates Number of Occurences of Total Local Voice events within a given month.
+VO_CNT_OFFNT_M1,Indicates Number of Occurences of Local Voice Offnet events within a given month.
+VO_CNT_OFFNT_M3,Indicates Number of Occurences of Local Voice Offnet events within a given month.
+VO_CNT_OFFNT_M6,Indicates Number of Occurences of Local Voice Offnet events within a given month.
+VO_CNT_OFFNT_WK1,Indicates Number of Occurences of Local Voice Offnet events within a given month.
+VO_CNT_OFFNT_WK2,Indicates Number of Occurences of Local Voice Offnet events within a given month.
+VO_CNT_OFFNT_WK3,Indicates Number of Occurences of Local Voice Offnet events within a given month.
+VO_CNT_OFFNT_WK4,Indicates Number of Occurences of Local Voice Offnet events within a given month.
+VO_CNT_ONNT_M1,Indicates Number of Occurences of Local Voice Onnet events within a given month.
+VO_CNT_ONNT_M3,Indicates Number of Occurences of Local Voice Onnet events within a given month.
+VO_CNT_ONNT_M6,Indicates Number of Occurences of Local Voice Onnet events within a given month.
+VO_CNT_ONNT_WK1,Indicates Number of Occurences of Local Voice Onnet events within a given month.
+VO_CNT_ONNT_WK2,Indicates Number of Occurences of Local Voice Onnet events within a given month.
+VO_CNT_ONNT_WK3,Indicates Number of Occurences of Local Voice Onnet events within a given month.
+VO_CNT_ONNT_WK4,Indicates Number of Occurences of Local Voice Onnet events within a given month.
+VO_CNT_WK1,Indicates Number of Occurences of Total Local Voice events within a given month.
+VO_CNT_WK2,Indicates Number of Occurences of Total Local Voice events within a given month.
+VO_CNT_WK3,Indicates Number of Occurences of Total Local Voice events within a given month.
+VO_CNT_WK4,Indicates Number of Occurences of Total Local Voice events within a given month.
+VO_CNT_WKDAY_M1,Indicates Number of Occurences of Total Local Voice events within a given month.
+VO_CNT_WKEND_M1,Indicates Number of Occurences of Total Local Voice events within a given month.
+VO_CUG_CNT_CHRG_M1,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_CHRG_M3,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_CHRG_M6,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
 VO_CUG_CNT_CHRG_WK1,"Indicates Number of Occurences of Total Local Voice CUG events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -1687,21 +1281,9 @@ WK3: From 15th till 21st day of the snapshot month
 WK4: From 22nd till end of the snapshot month
 WKDAY_M1: All week days (Sun - Thu) of the snapshot month
 W"
-VO_CUG_CNT_FREE_M1,"Indicates Number of Occurences of Total Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_CNT_FREE_M3,"Indicates Number of Occurences of Total Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_CNT_FREE_M6,"Indicates Number of Occurences of Total Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_CUG_CNT_FREE_M1,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_FREE_M3,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_FREE_M6,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
 VO_CUG_CNT_FREE_WK1,"Indicates Number of Occurences of Total Local Voice CUG events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -1741,21 +1323,9 @@ VO_CUG_CNT_IB_WK1,Voice CUG In Bundle Count
 VO_CUG_CNT_IB_WK2,Voice CUG In Bundle Count
 VO_CUG_CNT_IB_WK3,Voice CUG In Bundle Count
 VO_CUG_CNT_IB_WK4,Voice CUG In Bundle Count
-VO_CUG_CNT_M1,"Indicates Number of Occurences of Total Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_CNT_M3,"Indicates Number of Occurences of Total Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_CNT_M6,"Indicates Number of Occurences of Total Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_CUG_CNT_M1,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_M3,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_M6,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
 VO_CUG_CNT_WK1,"Indicates Number of Occurences of Total Local Voice CUG events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -1804,21 +1374,9 @@ WK3: From 15th till 21st day of the snapshot month
 WK4: From 22nd till end of the snapshot month
 WKDAY_M1: All week days (Sun - Thu) of the snapshot month
 W"
-VO_CUG_MOU_CHRG_M1,"Indicates Total Minutes of Charged Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_MOU_CHRG_M3,"Indicates Total Minutes of Charged Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_MOU_CHRG_M6,"Indicates Total Minutes of Charged Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_CUG_MOU_CHRG_M1,Indicates Total Minutes of Charged Local Voice CUG events within a given month.
+VO_CUG_MOU_CHRG_M3,Indicates Total Minutes of Charged Local Voice CUG events within a given month.
+VO_CUG_MOU_CHRG_M6,Indicates Total Minutes of Charged Local Voice CUG events within a given month.
 VO_CUG_MOU_CHRG_WK1,"Indicates Total Minutes of Charged Local Voice CUG events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -1851,21 +1409,9 @@ WK3: From 15th till 21st day of the snapshot month
 WK4: From 22nd till end of the snapshot month
 WKDAY_M1: All week days (Sun - Thu) of the snapshot month
 W"
-VO_CUG_MOU_FREE_M1,"Indicates Total Minutes of Free Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_MOU_FREE_M3,"Indicates Total Minutes of Free Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_MOU_FREE_M6,"Indicates Total Minutes of Free Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_CUG_MOU_FREE_M1,Indicates Total Minutes of Free Local Voice CUG events within a given month.
+VO_CUG_MOU_FREE_M3,Indicates Total Minutes of Free Local Voice CUG events within a given month.
+VO_CUG_MOU_FREE_M6,Indicates Total Minutes of Free Local Voice CUG events within a given month.
 VO_CUG_MOU_FREE_WK1,"Indicates Total Minutes of Free Local Voice CUG events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -1905,21 +1451,9 @@ VO_CUG_MOU_IB_WK1,Voice CUG In Bundle Usage
 VO_CUG_MOU_IB_WK2,Voice CUG In Bundle Usage
 VO_CUG_MOU_IB_WK3,Voice CUG In Bundle Usage
 VO_CUG_MOU_IB_WK4,Voice CUG In Bundle Usage
-VO_CUG_MOU_M1,"Indicates Total Minutes of Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_MOU_M3,"Indicates Total Minutes of Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_MOU_M6,"Indicates Total Minutes of Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_CUG_MOU_M1,Indicates Total Minutes of Local Voice CUG events within a given month.
+VO_CUG_MOU_M3,Indicates Total Minutes of Local Voice CUG events within a given month.
+VO_CUG_MOU_M6,Indicates Total Minutes of Local Voice CUG events within a given month.
 VO_CUG_MOU_WK1,"Indicates Total Minutes of Local Voice CUG events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -1952,21 +1486,9 @@ WK3: From 15th till 21st day of the snapshot month
 WK4: From 22nd till end of the snapshot month
 WKDAY_M1: All week days (Sun - Thu) of the snapshot month
 W"
-VO_CUG_REV_M1,"Indicates Total Revenue of Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_REV_M3,"Indicates Total Revenue of Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_CUG_REV_M6,"Indicates Total Revenue of Local Voice CUG events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_CUG_REV_M1,Indicates Total Revenue of Local Voice CUG events within a given month.
+VO_CUG_REV_M3,Indicates Total Revenue of Local Voice CUG events within a given month.
+VO_CUG_REV_M6,Indicates Total Revenue of Local Voice CUG events within a given month.
 VO_CUG_REV_WK1,"Indicates Total Revenue of Local Voice CUG events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -2018,148 +1540,32 @@ W"
 VO_F2F_OFFNT_CNT_M1,Voice Fixed to Fixed Offnet Count
 VO_F2F_OFFNT_MOU_M1,Voice Fixed to Fixed Offnet Usage
 VO_F2F_OFFNT_REV_M1,Voice Fixed to Fixed Offnet Revenue
-VO_F2F_ONNT_CNT_M1,"Indicates Number of Occurences of Fixed to Fixed Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_F2F_ONNT_MOU_M1,"Indicates Rounded Minutes of Fixed to Fixed Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_F2F_ONNT_REV_M1,"Indicates Total Revenue of Fixed to Fixed Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_F2F_ONNT_CNT_M1,Indicates Number of Occurences of Fixed to Fixed Onnet events within a given month.
+VO_F2F_ONNT_MOU_M1,Indicates Rounded Minutes of Fixed to Fixed Onnet events within a given month.
+VO_F2F_ONNT_REV_M1,Indicates Total Revenue of Fixed to Fixed Onnet events within a given month.
 VO_F2I_CNT_M1,Voice Fixed to International Count
 VO_F2I_MOU_M1,Voice Fixed to International Usage
 VO_F2I_REV_M1,Voice Fixed to International Revenue
-VO_F2M_OFFNT_CNT_M1,"Indicates Number of Occurences of Fixed to Mobile Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_F2M_OFFNT_MOU_M1,"Indicates Rounded Minutes of Fixed to Mobile Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_F2M_OFFNT_REV_M1,"Indicates Total Revenue of Fixed to Mobile Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_F2M_ONNT_CNT_M1,"Indicates Number of Occurences of Fixed to Mobile Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_F2M_ONNT_MOU_M1,"Indicates Rounded Minutes of Fixed to Mobile Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_F2M_ONNT_REV_M1,"Indicates Total Revenue of Fixed to Mobile Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_CNT_CHRG_M1,"Indicates Number of Occurences of Charged to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_CNT_CHRG_M3,"Indicates Number of Occurences of Charged to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_CNT_CHRG_M6,"Indicates Number of Occurences of Charged to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_CNT_CHRG_WK1,"Indicates Number of Occurences of Charged to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_FIX_CNT_CHRG_WK2,"Indicates Number of Occurences of Charged to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_FIX_CNT_CHRG_WK3,"Indicates Number of Occurences of Charged to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_FIX_CNT_CHRG_WK4,"Indicates Number of Occurences of Charged to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_FIX_CNT_FREE_M1,"Indicates Number of Occurences of Free to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_CNT_FREE_M3,"Indicates Number of Occurences of Free to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_CNT_FREE_M6,"Indicates Number of Occurences of Free to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_CNT_FREE_WK1,"Indicates Number of Occurences of Free to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_FIX_CNT_FREE_WK2,"Indicates Number of Occurences of Free to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_FIX_CNT_FREE_WK3,"Indicates Number of Occurences of Free to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_FIX_CNT_FREE_WK4,"Indicates Number of Occurences of Free to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+VO_F2M_OFFNT_CNT_M1,Indicates Number of Occurences of Fixed to Mobile Offnet events within a given month.
+VO_F2M_OFFNT_MOU_M1,Indicates Rounded Minutes of Fixed to Mobile Offnet events within a given month.
+VO_F2M_OFFNT_REV_M1,Indicates Total Revenue of Fixed to Mobile Offnet events within a given month.
+VO_F2M_ONNT_CNT_M1,Indicates Number of Occurences of Fixed to Mobile Onnet events within a given month.
+VO_F2M_ONNT_MOU_M1,Indicates Rounded Minutes of Fixed to Mobile Onnet events within a given month.
+VO_F2M_ONNT_REV_M1,Indicates Total Revenue of Fixed to Mobile Onnet events within a given month.
+VO_FIX_CNT_CHRG_M1,Indicates Number of Occurences of Charged to Fixed events within a given month.
+VO_FIX_CNT_CHRG_M3,Indicates Number of Occurences of Charged to Fixed events within a given month.
+VO_FIX_CNT_CHRG_M6,Indicates Number of Occurences of Charged to Fixed events within a given month.
+VO_FIX_CNT_CHRG_WK1,Indicates Number of Occurences of Charged to Fixed events within a given month.
+VO_FIX_CNT_CHRG_WK2,Indicates Number of Occurences of Charged to Fixed events within a given month.
+VO_FIX_CNT_CHRG_WK3,Indicates Number of Occurences of Charged to Fixed events within a given month.
+VO_FIX_CNT_CHRG_WK4,Indicates Number of Occurences of Charged to Fixed events within a given month.
+VO_FIX_CNT_FREE_M1,Indicates Number of Occurences of Free to Fixed events within a given month.
+VO_FIX_CNT_FREE_M3,Indicates Number of Occurences of Free to Fixed events within a given month.
+VO_FIX_CNT_FREE_M6,Indicates Number of Occurences of Free to Fixed events within a given month.
+VO_FIX_CNT_FREE_WK1,Indicates Number of Occurences of Free to Fixed events within a given month.
+VO_FIX_CNT_FREE_WK2,Indicates Number of Occurences of Free to Fixed events within a given month.
+VO_FIX_CNT_FREE_WK3,Indicates Number of Occurences of Free to Fixed events within a given month.
+VO_FIX_CNT_FREE_WK4,Indicates Number of Occurences of Free to Fixed events within a given month.
 VO_FIX_CNT_IB_M1,Voice to Fixed In bundle count
 VO_FIX_CNT_IB_M3,Voice to Fixed In bundle count
 VO_FIX_CNT_IB_M6,Voice to Fixed In bundle count
@@ -2167,21 +1573,9 @@ VO_FIX_CNT_IB_WK1,Voice to Fixed In bundle count
 VO_FIX_CNT_IB_WK2,Voice to Fixed In bundle count
 VO_FIX_CNT_IB_WK3,Voice to Fixed In bundle count
 VO_FIX_CNT_IB_WK4,Voice to Fixed In bundle count
-VO_FIX_CNT_M1,"Indicates Number of Occurences of Total to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_CNT_M3,"Indicates Number of Occurences of Total to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_CNT_M6,"Indicates Number of Occurences of Total to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_FIX_CNT_M1,Indicates Number of Occurences of Total to Fixed events within a given month.
+VO_FIX_CNT_M3,Indicates Number of Occurences of Total to Fixed events within a given month.
+VO_FIX_CNT_M6,Indicates Number of Occurences of Total to Fixed events within a given month.
 VO_FIX_CNT_OFFNT_M1,Voice to Fixed offnet count
 VO_FIX_CNT_OFFNT_M3,Voice to Fixed offnet count
 VO_FIX_CNT_OFFNT_M6,Voice to Fixed offnet count
@@ -2189,195 +1583,51 @@ VO_FIX_CNT_OFFNT_WK1,Voice to Fixed offnet count
 VO_FIX_CNT_OFFNT_WK2,Voice to Fixed offnet count
 VO_FIX_CNT_OFFNT_WK3,Voice to Fixed offnet count
 VO_FIX_CNT_OFFNT_WK4,Voice to Fixed offnet count
-VO_FIX_CNT_ONNT_M1,"Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_CNT_ONNT_M3,"Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_CNT_ONNT_M6,"Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_FIX_CNT_ONNT_M1,Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
+VO_FIX_CNT_ONNT_M3,Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
+VO_FIX_CNT_ONNT_M6,Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
 VO_FIX_CNT_ONNT_WK1,"Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_CNT_ONNT_WK2,"Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_CNT_ONNT_WK3,"Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_CNT_ONNT_WK4,"Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_CNT_WK1,"Indicates Number of Occurences of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_CNT_WK2,"Indicates Number of Occurences of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_CNT_WK3,"Indicates Number of Occurences of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_CNT_WK4,"Indicates Number of Occurences of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_CNT_WKDAY_M1,"Indicates Number of Occurences of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_CNT_WKEND_M1,"Indicates Number of Occurences of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_FIX_MOU_CHRG_M1,"Indicates Rounded Minutes of Charged to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_MOU_CHRG_M3,"Indicates Rounded Minutes of Charged to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_MOU_CHRG_M6,"Indicates Rounded Minutes of Charged to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_FIX_MOU_CHRG_M1,Indicates Rounded Minutes of Charged to Fixed events within a given month.
+VO_FIX_MOU_CHRG_M3,Indicates Rounded Minutes of Charged to Fixed events within a given month.
+VO_FIX_MOU_CHRG_M6,Indicates Rounded Minutes of Charged to Fixed events within a given month.
 VO_FIX_MOU_CHRG_WK1,"Indicates Rounded Minutes of Charged to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_CHRG_WK2,"Indicates Rounded Minutes of Charged to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_CHRG_WK3,"Indicates Rounded Minutes of Charged to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_CHRG_WK4,"Indicates Rounded Minutes of Charged to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_FIX_MOU_FREE_M1,"Indicates Rounded Minutes of Free to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_MOU_FREE_M3,"Indicates Rounded Minutes of Free to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_MOU_FREE_M6,"Indicates Rounded Minutes of Free to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_FIX_MOU_FREE_M1,Indicates Rounded Minutes of Free to Fixed events within a given month.
+VO_FIX_MOU_FREE_M3,Indicates Rounded Minutes of Free to Fixed events within a given month.
+VO_FIX_MOU_FREE_M6,Indicates Rounded Minutes of Free to Fixed events within a given month.
 VO_FIX_MOU_FREE_WK1,"Indicates Rounded Minutes of Free to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_FREE_WK2,"Indicates Rounded Minutes of Free to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_FREE_WK3,"Indicates Rounded Minutes of Free to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_FREE_WK4,"Indicates Rounded Minutes of Free to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_IB_M1,Voice to Fixed In bundle Usage
 VO_FIX_MOU_IB_M3,Voice to Fixed In bundle Usage
 VO_FIX_MOU_IB_M6,Voice to Fixed In bundle Usage
@@ -2385,21 +1635,9 @@ VO_FIX_MOU_IB_WK1,Voice to Fixed In bundle Usage
 VO_FIX_MOU_IB_WK2,Voice to Fixed In bundle Usage
 VO_FIX_MOU_IB_WK3,Voice to Fixed In bundle Usage
 VO_FIX_MOU_IB_WK4,Voice to Fixed In bundle Usage
-VO_FIX_MOU_M1,"Indicates Rounded Minutes of Total to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_MOU_M3,"Indicates Rounded Minutes of Total to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_MOU_M6,"Indicates Rounded Minutes of Total to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_FIX_MOU_M1,Indicates Rounded Minutes of Total to Fixed events within a given month.
+VO_FIX_MOU_M3,Indicates Rounded Minutes of Total to Fixed events within a given month.
+VO_FIX_MOU_M6,Indicates Rounded Minutes of Total to Fixed events within a given month.
 VO_FIX_MOU_OFFNT_M1,Voice to Fixed offnet Usage
 VO_FIX_MOU_OFFNT_M3,Voice to Fixed offnet Usage
 VO_FIX_MOU_OFFNT_M6,Voice to Fixed offnet Usage
@@ -2409,116 +1647,32 @@ VO_FIX_MOU_OFFNT_WK3,Voice to Fixed offnet Usage
 VO_FIX_MOU_OFFNT_WK4,Voice to Fixed offnet Usage
 VO_FIX_MOU_OFFNT_WKDAY_M1,Monthly Weekday Voice Fixed Offnet MOU
 VO_FIX_MOU_OFFNT_WKEND_M1,Monthly Weekend Voice Fixed Offnet MOU
-VO_FIX_MOU_ONNT_M1,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_MOU_ONNT_M3,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_MOU_ONNT_M6,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_FIX_MOU_ONNT_M1,Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
+VO_FIX_MOU_ONNT_M3,Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
+VO_FIX_MOU_ONNT_M6,Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
 VO_FIX_MOU_ONNT_WK1,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_ONNT_WK2,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_ONNT_WK3,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_ONNT_WK4,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_ONNT_WKDAY_M1,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_ONNT_WKEND_M1,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_WK1,"Indicates Rounded Minutes of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_WK2,"Indicates Rounded Minutes of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_WK3,"Indicates Rounded Minutes of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_MOU_WK4,"Indicates Rounded Minutes of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_FIX_REV_M1,"Indicates Total Revenue of Total to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_REV_M3,"Indicates Total Revenue of Total to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_REV_M6,"Indicates Total Revenue of Total to Fixed events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_FIX_REV_M1,Indicates Total Revenue of Total to Fixed events within a given month.
+VO_FIX_REV_M3,Indicates Total Revenue of Total to Fixed events within a given month.
+VO_FIX_REV_M6,Indicates Total Revenue of Total to Fixed events within a given month.
 VO_FIX_REV_OFFNT_M1,Monthly Voice Fixed Offnet Revenue
 VO_FIX_REV_OFFNT_M3,Monthly Voice Fixed Offnet Revenue
 VO_FIX_REV_OFFNT_M6,Monthly Voice Fixed Offnet Revenue
@@ -2526,101 +1680,29 @@ VO_FIX_REV_OFFNT_WK1,Weekly Voice Fixed Offnet Revenue
 VO_FIX_REV_OFFNT_WK2,Weekly Voice Fixed Offnet Revenue
 VO_FIX_REV_OFFNT_WK3,Weekly Voice Fixed Offnet Revenue
 VO_FIX_REV_OFFNT_WK4,Weekly Voice Fixed Offnet Revenue
-VO_FIX_REV_ONNT_M1,"Indicates Total Revenue of Total to Fixed Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_REV_ONNT_M3,"Indicates Total Revenue of Total to Fixed Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_FIX_REV_ONNT_M6,"Indicates Total Revenue of Total to Fixed Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_FIX_REV_ONNT_M1,Indicates Total Revenue of Total to Fixed Onnet events within a given month.
+VO_FIX_REV_ONNT_M3,Indicates Total Revenue of Total to Fixed Onnet events within a given month.
+VO_FIX_REV_ONNT_M6,Indicates Total Revenue of Total to Fixed Onnet events within a given month.
 VO_FIX_REV_ONNT_WK1,"Indicates Total Revenue of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_REV_ONNT_WK2,"Indicates Total Revenue of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_REV_ONNT_WK3,"Indicates Total Revenue of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_REV_ONNT_WK4,"Indicates Total Revenue of Total to Fixed Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_REV_WK1,"Indicates Total Revenue of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_REV_WK2,"Indicates Total Revenue of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_REV_WK3,"Indicates Total Revenue of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_REV_WK4,"Indicates Total Revenue of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_REV_WKDAY_M1,"Indicates Total Revenue of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_FIX_REV_WKEND_M1,"Indicates Total Revenue of Total to Fixed events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_IDD_2ND_CNTRY,"Indicates Rank of International(IDD) Voice events within a given month.
 
 Rank:
@@ -2662,21 +1744,9 @@ Rank:
 Top : ranking of all and selecting first in rank
 2nd: Ranking of all and selecting second in rank"
 VO_IDD_ACT_MOU_M1,Duration of actual Voice MOUS for a specific Month
-VO_IDD_CNT_CHRG_M1,"Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_CNT_CHRG_M3,"Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_CNT_CHRG_M6,"Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_IDD_CNT_CHRG_M1,Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
+VO_IDD_CNT_CHRG_M3,Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
+VO_IDD_CNT_CHRG_M6,Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
 VO_IDD_CNT_CHRG_WK1,"Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -2709,21 +1779,9 @@ WK3: From 15th till 21st day of the snapshot month
 WK4: From 22nd till end of the snapshot month
 WKDAY_M1: All week days (Sun - Thu) of the snapshot month
 W"
-VO_IDD_CNT_FREE_M1,"Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_CNT_FREE_M3,"Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_CNT_FREE_M6,"Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_IDD_CNT_FREE_M1,Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
+VO_IDD_CNT_FREE_M3,Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
+VO_IDD_CNT_FREE_M6,Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
 VO_IDD_CNT_FREE_WK1,"Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -2763,21 +1821,9 @@ VO_IDD_CNT_IB_WK1,Weekly Voice International Inbound Count
 VO_IDD_CNT_IB_WK2,Weekly Voice International Inbound Count
 VO_IDD_CNT_IB_WK3,Weekly Voice International Inbound Count
 VO_IDD_CNT_IB_WK4,Weekly Voice International Inbound Count
-VO_IDD_CNT_M1,"Indicates Number of Occurences of International(IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_CNT_M3,"Indicates Number of Occurences of International(IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_CNT_M6,"Indicates Number of Occurences of International(IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_IDD_CNT_M1,Indicates Number of Occurences of International(IDD) Voice events within a given month.
+VO_IDD_CNT_M3,Indicates Number of Occurences of International(IDD) Voice events within a given month.
+VO_IDD_CNT_M6,Indicates Number of Occurences of International(IDD) Voice events within a given month.
 VO_IDD_CNT_WK1,"Indicates Number of Occurences of International(IDD) Voice events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -2813,21 +1859,9 @@ W"
 VO_IDD_INC_ACT_MOU_M1,Voice International Incoming Acutal Minutes of Usage
 VO_IDD_LNGST_CALL_ACT_MOU_M1,Duration for the longest international Voice call for a specific month
 VO_IDD_MOU_CHRG_M1,"Indicates Total Minutes of Charged International (IDD) Voice events within a given month.
-VO_IDD_OB_ACT_MOU_M1
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_MOU_CHRG_M3,"Indicates Total Minutes of Charged International (IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_MOU_CHRG_M6,"Indicates Total Minutes of Charged International (IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_IDD_OB_ACT_MOU_M1"
+VO_IDD_MOU_CHRG_M3,Indicates Total Minutes of Charged International (IDD) Voice events within a given month.
+VO_IDD_MOU_CHRG_M6,Indicates Total Minutes of Charged International (IDD) Voice events within a given month.
 VO_IDD_MOU_CHRG_WK1,"Indicates Total Minutes of Charged International (IDD) Voice events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -2860,21 +1894,9 @@ WK3: From 15th till 21st day of the snapshot month
 WK4: From 22nd till end of the snapshot month
 WKDAY_M1: All week days (Sun - Thu) of the snapshot month
 W"
-VO_IDD_MOU_FREE_M1,"Indicates Total Minutes of Free International (IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_MOU_FREE_M3,"Indicates Total Minutes of Free International (IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_MOU_FREE_M6,"Indicates Total Minutes of Free International (IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_IDD_MOU_FREE_M1,Indicates Total Minutes of Free International (IDD) Voice events within a given month.
+VO_IDD_MOU_FREE_M3,Indicates Total Minutes of Free International (IDD) Voice events within a given month.
+VO_IDD_MOU_FREE_M6,Indicates Total Minutes of Free International (IDD) Voice events within a given month.
 VO_IDD_MOU_FREE_WK1,"Indicates Total Minutes of Free International (IDD) Voice events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -2914,21 +1936,9 @@ VO_IDD_MOU_IB_WK1,Weekly Voice International Inbound Minutes of Usage
 VO_IDD_MOU_IB_WK2,Weekly Voice International Inbound Minutes of Usage
 VO_IDD_MOU_IB_WK3,Weekly Voice International Inbound Minutes of Usage
 VO_IDD_MOU_IB_WK4,Weekly Voice International Inbound Minutes of Usage
-VO_IDD_MOU_M1,"Indicates Total Minutes of International(IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_MOU_M3,"Indicates Total Minutes of International(IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_MOU_M6,"Indicates Total Minutes of International(IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_IDD_MOU_M1,Indicates Total Minutes of International(IDD) Voice events within a given month.
+VO_IDD_MOU_M3,Indicates Total Minutes of International(IDD) Voice events within a given month.
+VO_IDD_MOU_M6,Indicates Total Minutes of International(IDD) Voice events within a given month.
 VO_IDD_MOU_WK1,"Indicates Total Minutes of International(IDD) Voice events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -2963,21 +1973,9 @@ WKDAY_M1: All week days (Sun - Thu) of the snapshot month
 W"
 VO_IDD_OB_ACT_MOU_M1,Voice International Outbound Actual Minutes of Usage
 VO_IDD_OB_REV_M1,Voice International Outbound Revenue
-VO_IDD_REV_M1,"Indicates Total Revenue of International(IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_REV_M3,"Indicates Total Revenue of International(IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_IDD_REV_M6,"Indicates Total Revenue of International(IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_IDD_REV_M1,Indicates Total Revenue of International(IDD) Voice events within a given month.
+VO_IDD_REV_M3,Indicates Total Revenue of International(IDD) Voice events within a given month.
+VO_IDD_REV_M6,Indicates Total Revenue of International(IDD) Voice events within a given month.
 VO_IDD_REV_WK1,"Indicates Total Revenue of International(IDD) Voice events within a given month.
 
 WK1: From 1st till 7th day of the snapshot month
@@ -3023,108 +2021,32 @@ VO_IDD_TOP_CNTRY_REV,"Indicates Total Revenue of International(IDD) Voice events
 Rank:
 Top : ranking of all and selecting first in rank
 2nd: Ranking of all and selecting second in rank"
-VO_IDD_TOT_REV,"Indicates Total Revenue of International(IDD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_IDD_TOT_REV,Indicates Total Revenue of International(IDD) Voice events within a given month.
 VO_INC_MOB_UNQ_CLR_M1,Monthly Voice Incoming Mobile Unique Callers
 VO_INC_MOB_UNQ_CLR_M3,Monthly Voice Incoming Mobile Unique Callers
 VO_INC_MOB_UNQ_CLR_M6,Monthly Voice Incoming Mobile Unique Callers
-VO_MOB_CNT_CHRG_M1,"Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_CNT_CHRG_M3,"Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_CNT_CHRG_M6,"Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_MOB_CNT_CHRG_M1,Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
+VO_MOB_CNT_CHRG_M3,Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
+VO_MOB_CNT_CHRG_M6,Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
 VO_MOB_CNT_CHRG_WK1,"Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_CHRG_WK2,"Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_CHRG_WK3,"Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_CHRG_WK4,"Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_MOB_CNT_FREE_M1,"Indicates Number of Occurences of Free to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_CNT_FREE_M3,"Indicates Number of Occurences of Free to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_CNT_FREE_M6,"Indicates Number of Occurences of Free to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_MOB_CNT_FREE_M1,Indicates Number of Occurences of Free to Mobile Voice events within a given month.
+VO_MOB_CNT_FREE_M3,Indicates Number of Occurences of Free to Mobile Voice events within a given month.
+VO_MOB_CNT_FREE_M6,Indicates Number of Occurences of Free to Mobile Voice events within a given month.
 VO_MOB_CNT_FREE_WK1,"Indicates Number of Occurences of Free to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_FREE_WK2,"Indicates Number of Occurences of Free to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_FREE_WK3,"Indicates Number of Occurences of Free to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_FREE_WK4,"Indicates Number of Occurences of Free to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_IB_M1,Monthly Voice Mobile Inbound Count
 VO_MOB_CNT_IB_M3,Monthly Voice Mobile Inbound Count
 VO_MOB_CNT_IB_M6,Monthly Voice Mobile Inbound Count
@@ -3132,257 +2054,65 @@ VO_MOB_CNT_IB_WK1,Weekly Voice Mobile Inbound Count
 VO_MOB_CNT_IB_WK2,Weekly Voice Mobile Inbound Count
 VO_MOB_CNT_IB_WK3,Weekly Voice Mobile Inbound Count
 VO_MOB_CNT_IB_WK4,Weekly Voice Mobile Inbound Count
-VO_MOB_CNT_M1,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_CNT_M3,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_CNT_M6,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_CNT_OFFNT_M1,"Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_CNT_OFFNT_M3,"Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_CNT_OFFNT_M6,"Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_MOB_CNT_M1,Indicates Number of Occurences of Total to Mobile Voice events within a given month.
+VO_MOB_CNT_M3,Indicates Number of Occurences of Total to Mobile Voice events within a given month.
+VO_MOB_CNT_M6,Indicates Number of Occurences of Total to Mobile Voice events within a given month.
+VO_MOB_CNT_OFFNT_M1,Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
+VO_MOB_CNT_OFFNT_M3,Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
+VO_MOB_CNT_OFFNT_M6,Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
 VO_MOB_CNT_OFFNT_WK1,"Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_OFFNT_WK2,"Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_OFFNT_WK3,"Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_OFFNT_WK4,"Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_MOB_CNT_ONNT_M1,"Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_CNT_ONNT_M3,"Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_CNT_ONNT_M6,"Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_MOB_CNT_ONNT_M1,Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
+VO_MOB_CNT_ONNT_M3,Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
+VO_MOB_CNT_ONNT_M6,Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
 VO_MOB_CNT_ONNT_WK1,"Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_ONNT_WK2,"Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_ONNT_WK3,"Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_ONNT_WK4,"Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_WK1,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_WK2,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_WK3,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_WK4,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_WKDAY_M1,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_CNT_WKEND_M1,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_MOB_MOU_CHRG_M1,"Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_MOU_CHRG_M3,"Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_MOU_CHRG_M6,"Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_MOB_MOU_CHRG_M1,Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
+VO_MOB_MOU_CHRG_M3,Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
+VO_MOB_MOU_CHRG_M6,Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
 VO_MOB_MOU_CHRG_WK1,"Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_CHRG_WK2,"Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_CHRG_WK3,"Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_CHRG_WK4,"Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_MOB_MOU_FREE_M1,"Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_MOU_FREE_M3,"Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_MOU_FREE_M6,"Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_MOB_MOU_FREE_M1,Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
+VO_MOB_MOU_FREE_M3,Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
+VO_MOB_MOU_FREE_M6,Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
 VO_MOB_MOU_FREE_WK1,"Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_FREE_WK2,"Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_FREE_WK3,"Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_FREE_WK4,"Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_IB_M1,Monthly Voice Mobile Inbound MOU
 VO_MOB_MOU_IB_M3,Monthly Voice Mobile Inbound MOU
 VO_MOB_MOU_IB_M6,Monthly Voice Mobile Inbound MOU
@@ -3390,336 +2120,84 @@ VO_MOB_MOU_IB_WK1,Weekly Voice Mobile Inbound MOU
 VO_MOB_MOU_IB_WK2,Weekly Voice Mobile Inbound MOU
 VO_MOB_MOU_IB_WK3,Weekly Voice Mobile Inbound MOU
 VO_MOB_MOU_IB_WK4,Weekly Voice Mobile Inbound MOU
-VO_MOB_MOU_M1,"Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_MOU_M3,"Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_MOU_M6,"Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_MOU_OFFNT_M1,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_MOU_OFFNT_M3,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_MOU_OFFNT_M6,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_MOB_MOU_M1,Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
+VO_MOB_MOU_M3,Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
+VO_MOB_MOU_M6,Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
+VO_MOB_MOU_OFFNT_M1,Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
+VO_MOB_MOU_OFFNT_M3,Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
+VO_MOB_MOU_OFFNT_M6,Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
 VO_MOB_MOU_OFFNT_WK1,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_OFFNT_WK2,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_OFFNT_WK3,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_OFFNT_WK4,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_OFFNT_WKDAY_M1,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_OFFNT_WKEND_M1,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_MOB_MOU_ONNT_M1,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_MOU_ONNT_M3,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_MOU_ONNT_M6,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_MOB_MOU_ONNT_M1,Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
+VO_MOB_MOU_ONNT_M3,Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
+VO_MOB_MOU_ONNT_M6,Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
 VO_MOB_MOU_ONNT_WK1,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_ONNT_WK2,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_ONNT_WK3,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_ONNT_WK4,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_ONNT_WKDAY_M1,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_ONNT_WKEND_M1,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_WK1,"Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_WK2,"Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_WK3,"Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_MOU_WK4,"Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_MOB_REV_M1,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_REV_M3,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_REV_M6,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_REV_OFFNT_M1,"Indicates Total Revenue of Total to Mobile Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_REV_OFFNT_M3,"Indicates Total Revenue of Total to Mobile Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_REV_OFFNT_M6,"Indicates Total Revenue of Total to Mobile Offnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_MOB_REV_M1,Indicates Total Revenue of Total to Mobile Voice events within a given month.
+VO_MOB_REV_M3,Indicates Total Revenue of Total to Mobile Voice events within a given month.
+VO_MOB_REV_M6,Indicates Total Revenue of Total to Mobile Voice events within a given month.
+VO_MOB_REV_OFFNT_M1,Indicates Total Revenue of Total to Mobile Offnet events within a given month.
+VO_MOB_REV_OFFNT_M3,Indicates Total Revenue of Total to Mobile Offnet events within a given month.
+VO_MOB_REV_OFFNT_M6,Indicates Total Revenue of Total to Mobile Offnet events within a given month.
 VO_MOB_REV_OFFNT_WK1,"Indicates Total Revenue of Total to Mobile Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_REV_OFFNT_WK2,"Indicates Total Revenue of Total to Mobile Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_REV_OFFNT_WK3,"Indicates Total Revenue of Total to Mobile Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_REV_OFFNT_WK4,"Indicates Total Revenue of Total to Mobile Offnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_MOB_REV_ONNT_M1,"Indicates Total Revenue of Total to Mobile Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_REV_ONNT_M3,"Indicates Total Revenue of Total to Mobile Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOB_REV_ONNT_M6,"Indicates Total Revenue of Total to Mobile Onnet events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_MOB_REV_ONNT_M1,Indicates Total Revenue of Total to Mobile Onnet events within a given month.
+VO_MOB_REV_ONNT_M3,Indicates Total Revenue of Total to Mobile Onnet events within a given month.
+VO_MOB_REV_ONNT_M6,Indicates Total Revenue of Total to Mobile Onnet events within a given month.
 VO_MOB_REV_ONNT_WK1,"Indicates Total Revenue of Total to Mobile Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_REV_ONNT_WK2,"Indicates Total Revenue of Total to Mobile Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_REV_ONNT_WK3,"Indicates Total Revenue of Total to Mobile Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_REV_ONNT_WK4,"Indicates Total Revenue of Total to Mobile Onnet events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_REV_WK1,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_REV_WK2,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_REV_WK3,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_REV_WK4,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_REV_WKDAY_M1,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_REV_WKEND_M1,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOB_UNQ_DLD_M1,"Indicates Number of Unique Called Mobile Numbers within a given period.
 
 M1: Snapshot month
@@ -3735,100 +2213,28 @@ VO_MOB_UNQ_DLD_M6,"Indicates Number of Unique Called Mobile Numbers within a giv
 M1: Snapshot month
 M3: Snapshot month minus 2 till Snapshot month
 M6: Snapshot month - 5 till Snapshot month"
-VO_MOU_CHRG_M1,"Indicates Rounded Minutes of Charged Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOU_CHRG_M3,"Indicates Rounded Minutes of Charged Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOU_CHRG_M6,"Indicates Rounded Minutes of Charged Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_MOU_CHRG_M1,Indicates Rounded Minutes of Charged Local Voice events within a given month.
+VO_MOU_CHRG_M3,Indicates Rounded Minutes of Charged Local Voice events within a given month.
+VO_MOU_CHRG_M6,Indicates Rounded Minutes of Charged Local Voice events within a given month.
 VO_MOU_CHRG_WK1,"Indicates Rounded Minutes of Charged Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_CHRG_WK2,"Indicates Rounded Minutes of Charged Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_CHRG_WK3,"Indicates Rounded Minutes of Charged Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_CHRG_WK4,"Indicates Rounded Minutes of Charged Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_MOU_FREE_M1,"Indicates Rounded Minutes of Free Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOU_FREE_M3,"Indicates Rounded Minutes of Free Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOU_FREE_M6,"Indicates Rounded Minutes of Free Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_MOU_FREE_M1,Indicates Rounded Minutes of Free Local Voice events within a given month.
+VO_MOU_FREE_M3,Indicates Rounded Minutes of Free Local Voice events within a given month.
+VO_MOU_FREE_M6,Indicates Rounded Minutes of Free Local Voice events within a given month.
 VO_MOU_FREE_WK1,"Indicates Rounded Minutes of Free Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_FREE_WK2,"Indicates Rounded Minutes of Free Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_FREE_WK3,"Indicates Rounded Minutes of Free Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_FREE_WK4,"Indicates Rounded Minutes of Free Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_IB_M1,Monthly Voice Inbound MOU
 VO_MOU_IB_M3,Monthly Voice Inbound MOU
 VO_MOU_IB_M6,Monthly Voice Inbound MOU
@@ -3836,351 +2242,87 @@ VO_MOU_IB_WK1,Weekly Voice Inbound Minutes of Usage
 VO_MOU_IB_WK2,Weekly Voice Inbound Minutes of Usage
 VO_MOU_IB_WK3,Weekly Voice Inbound Minutes of Usage
 VO_MOU_IB_WK4,Weekly Voice Inbound Minutes of Usage
-VO_MOU_M1,"Indicates Rounded Minutes of Total Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOU_M3,"Indicates Rounded Minutes of Total Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOU_M6,"Indicates Rounded Minutes of Total Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOU_OFFNT_CHRG_M1,"Indicates Rounded Minutes of Charged Local Offnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOU_OFFNT_M1,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOU_OFFNT_M3,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOU_OFFNT_M6,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_MOU_M1,Indicates Rounded Minutes of Total Local Voice events within a given month.
+VO_MOU_M3,Indicates Rounded Minutes of Total Local Voice events within a given month.
+VO_MOU_M6,Indicates Rounded Minutes of Total Local Voice events within a given month.
+VO_MOU_OFFNT_CHRG_M1,Indicates Rounded Minutes of Charged Local Offnet Voice events within a given month.
+VO_MOU_OFFNT_M1,Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
+VO_MOU_OFFNT_M3,Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
+VO_MOU_OFFNT_M6,Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
 VO_MOU_OFFNT_WK1,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_OFFNT_WK2,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_OFFNT_WK3,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_OFFNT_WK4,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_OFFNT_WKDAY_M1,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_OFFNT_WKEND_M1,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_MOU_ONNT_CHRG_M1,"Indicates Rounded Minutes of Charged Local Onnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOU_ONNT_M1,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOU_ONNT_M3,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_MOU_ONNT_M6,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_MOU_ONNT_CHRG_M1,Indicates Rounded Minutes of Charged Local Onnet Voice events within a given month.
+VO_MOU_ONNT_M1,Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
+VO_MOU_ONNT_M3,Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
+VO_MOU_ONNT_M6,Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
 VO_MOU_ONNT_WK1,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_ONNT_WK2,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_ONNT_WK3,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_ONNT_WK4,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_ONNT_WKDAY_M1,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_ONNT_WKEND_M1,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_WK1,"Indicates Rounded Minutes of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_WK2,"Indicates Rounded Minutes of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_WK3,"Indicates Rounded Minutes of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_MOU_WK4,"Indicates Rounded Minutes of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_REV_M1,"Indicates Total Revenue of Total Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_REV_M3,"Indicates Total Revenue of Total Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_REV_M6,"Indicates Total Revenue of Total Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_REV_OFFNT_M1,"Indicates Total Revenue of Total Local Offnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_REV_OFFNT_M3,"Indicates Total Revenue of Total Local Offnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_REV_OFFNT_M6,"Indicates Total Revenue of Total Local Offnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_REV_M1,Indicates Total Revenue of Total Local Voice events within a given month.
+VO_REV_M3,Indicates Total Revenue of Total Local Voice events within a given month.
+VO_REV_M6,Indicates Total Revenue of Total Local Voice events within a given month.
+VO_REV_OFFNT_M1,Indicates Total Revenue of Total Local Offnet Voice events within a given month.
+VO_REV_OFFNT_M3,Indicates Total Revenue of Total Local Offnet Voice events within a given month.
+VO_REV_OFFNT_M6,Indicates Total Revenue of Total Local Offnet Voice events within a given month.
 VO_REV_OFFNT_WK1,"Indicates Total Revenue of Total Local Offnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_REV_OFFNT_WK2,"Indicates Total Revenue of Total Local Offnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_REV_OFFNT_WK3,"Indicates Total Revenue of Total Local Offnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_REV_OFFNT_WK4,"Indicates Total Revenue of Total Local Offnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_REV_ONNT_M1,"Indicates Total Revenue of Total Local Onnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_REV_ONNT_M3,"Indicates Total Revenue of Total Local Onnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
-VO_REV_ONNT_M6,"Indicates Total Revenue of Total Local Onnet Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_REV_ONNT_M1,Indicates Total Revenue of Total Local Onnet Voice events within a given month.
+VO_REV_ONNT_M3,Indicates Total Revenue of Total Local Onnet Voice events within a given month.
+VO_REV_ONNT_M6,Indicates Total Revenue of Total Local Onnet Voice events within a given month.
 VO_REV_ONNT_WK1,"Indicates Total Revenue of Total Local Onnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_REV_ONNT_WK2,"Indicates Total Revenue of Total Local Onnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_REV_ONNT_WK3,"Indicates Total Revenue of Total Local Onnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_REV_ONNT_WK4,"Indicates Total Revenue of Total Local Onnet Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
-VO_REV_VAT_M1,"Indicates Total VAT amount of Total Local Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+"
+VO_REV_VAT_M1,Indicates Total VAT amount of Total Local Voice events within a given month.
 VO_REV_WK1,"Indicates Total Revenue of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_REV_WK2,"Indicates Total Revenue of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_REV_WK3,"Indicates Total Revenue of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_REV_WK4,"Indicates Total Revenue of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_REV_WKDAY_M1,"Indicates Total Revenue of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_REV_WKEND_M1,"Indicates Total Revenue of Total Local Voice events within a given month.
-
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-WKEND_M1: All weekends (Fri - Sat) of the snapshot month"
+"
 VO_ROAM_ACT_MOU_M1,Duration of actual Voice Roaming Minutes for a specific Month
 VO_ROAM_CNT_CHRG_M1,Monthly Voice Roaming Charged Count
 VO_ROAM_CNT_CHRG_M3,Monthly Voice Roaming Charged Count
@@ -4277,11 +2419,7 @@ VO_STD_MOU_WK3,Weekly Voice National MOU
 VO_STD_MOU_WK4,Weekly Voice National MOU
 VO_STD_OB_ACT_MOU_M1,Voice National Outbound Actual Minutes of Usage
 VO_STD_OB_ACT_REV_M1,Voice National Outbound Actual Minutes of Usage
-VO_STD_REV_M1,"Indicates Total Revenue of National(STD) Voice events within a given month.
-
-M1: Snapshot month
-M2: Snapshot month minus 1
-M3: Snapshot month - 2"
+VO_STD_REV_M1,Indicates Total Revenue of National(STD) Voice events within a given month.
 WKLY_IDD_ALLOWANCE_MINS,Weekly International Allowance Minutes
 WKLY_IDD_MINS_OTC,Weekly International Minutes One Time Charge
 WKLY_LOCAL_DATA_ALLOWANCE_MB,Weekly Local Data Allowance MBs
