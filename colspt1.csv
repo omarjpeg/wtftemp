@@ -1,743 +1,1106 @@
 col_name,comment
-AC_ACTVN_DT,Account Activation date sourcing from the CRM System with Format YYYY-MM-DD HH:MM:SS
-AC_BAL,Field represents either the main account balance amount or the dedicated balance amount
-ACQ_CNL,"A field that holds the sales channel of the organization unit (e.g. Retail Sales, D2D & Van Sales, etc.)"
-ACS_DVC,"Represents type of device (e.g. Handset, Smartphone, Tablet, Mobile Internet Modem, ADSL modem, Router)"
-ACS_DVC_MAKE,"Represents the customer device vendor name (e.g. Apple, Samsung, Blackberry, CISCO)"
-ACS_DVC_MODL,"Represents the device model name (e.g. iPhone5, iPhone3GS, Blackberry Z10)"
-ACS_DVC_NTW_TP,"References the supported network type of the device (e.g. COAX, LAN, 2G, 3G, 4G)"
-ACS_DVC_OPRG_STM,"Operating system of the device (e.g. Android Froyo 2.2, Windows Mobile 7.5, iOS5, Bada, Symbian)."
-ACS_DVC_SRL_NUM,Tokenized - Represents the serial number associated with device
-ACTV_30_DYS,Indicates whether the customer was active in last 30 days
-ACTV_60_DYS,Indicates whether the customer was active in last 60 days
-ACTV_90_DYS,Indicates whether the customer was active in last 90 days
-ACTV_DYS_DATA,Indicates Number of Active Days of Data events within a given month.
-ACTV_DYS_IDD,Indicates Number of Active Days of International(IDD) Voice events within a given month.
-ACTVN_DT,Subscription Activation date sourcing from the CRM System with format YYYY-MM-DD HH:MM:SS
-ADD_ON_ELIFE_FLG,Flag represents if customer added Add Ons for Elife Postpaid service with Value N or Y
-ADD_ON_ELIFE_VAL,Indicates the total value of the active Elife addons as of end of the snapshot month.
-ADD_ON_PSTPD_FLG,Flag represents if customer added Postpaid Add Ons service with Value N or Y
-ADD_ON_PSTPD_VAL,Indicates the total value of the active Postpaid addons as of end of the snapshot month.
-ALLOWANCES_BULK_SMS_TRX,Customer Allowances Balance for bulk SMS service transactions
-ALLOWANCES_CUG_LOCAL_VOICE_MINUTES,customers allocated minutes for local voice calls within the CUG (Closed User Group)
-ALLOWANCES_FLEXI_SMS_TRX,customers allocated transactions for flexi SMS service
-ALLOWANCES_FLEXI_VOICE_MINUTES,customers allocated minutes for flexi voice calls
-ALLOWANCES_IDD_SMS_TRX,customers allocated transactions for IDD (International Direct Dialing) SMS service
-ALLOWANCES_IDD_VOICE_MINUTES,customers allocated minutes for International Direct Dialing (IDD) voice calls
-ALLOWANCES_LOCAL_DATA,customers allocated data volume for local usage
-ALLOWANCES_LOCAL_SMS_TRX,customers allocated transactions for local SMS service
-ALLOWANCES_LOCAL_VOICE_MINUTES,customers allocated minutes for local voice calls
-ALLOWANCES_OTHER_DATA,customers allocated data volume for other usage
-ALLOWANCES_OTHER_MINUTES,customers allocated minutes for other voice calls
-ALLOWANCES_OTHER_SMS_TRX,customers allocated transactions for other SMS service
-ALLOWANCES_ROAMING_DATA,customers allocated data volume for roaming usage
-ALLOWANCES_ROAMING_INC_OUT_MINUTES,customers allocated incoming and outgoing minutes for roaming calls
-ALLOWANCES_ROAMING_INCOMING_MINUTES,customers allocated incoming minutes for roaming calls
-ALLOWANCES_ROAMING_OUTGOING_MINUTES,customers allocated outgoing minutes for roaming calls
-ALLOWANCES_ROAMING_SMS_TRX,customers allocated transactions for roaming SMS service
-APP_USG_DUR,Total duration of customers application usage from Data Packet Inception (DPI) 
-APP_USG_VOL,Total volume of customers application usage from Data Packet Inception (DPI) 
-AR_ID,"DWH System Unique Identifier represents the Id of the account type  (subscriber) 
-There can be multiple subscriptions under same account."
-AR_LIFE_CYC_ST_RSN_TP,"The status reason of the customer in system at the reported date (e.g. None Payment Cessation, DUNNING, Unknown, Customer Request Cessation, Non Registration)
-Status of the account as tagged in CRM system."
-AR_LIFE_CYC_ST_TP,"The status of the customer in system at the reported date (e.g. Active, Ceased, Tossed, Cleared, 0 Bar Confirmed)
-Status of the account as tagged in CRM system."
-AR_PPS_TP,"Represents segmentation at account level according to the CRM system (e.g. Residential, Special Need Individual, Prestige, Partner)"
-AR_UNQ_ID_IN_SRC_STM,"Source System Unique Identifier represents the Id of the account type  (subscriber/account) 
-There can be multiple subscriptions under an account."
-ARPU_1,Average Revenue Per User for the past 1 month
-ARPU_12,Average Revenue Per User for the past 12 months
-ARPU_3,Average Revenue Per User for the past 3 months
-ARPU_6,Average Revenue Per User for the past 6 months
-AUH_DXB_COMM,"Flag Indicates the home contact region and work contact region through Abu Dhabi and Dubai with values N , Y"
-AUH_SHA_COMM,"Flag Indicates the home contact region and work contact region through Abu Dhabi and Sharjah with values N , Y"
-AUTOPAY_FLG,Autopay Flag based on bank reference number with values Y and N
-AVG_AC_MNTHLY_BLNC,"Monthly average, minimum balance and number of days with 0 balance"
-AVG_CNCTD_DVCS_ETHRNT,Average connected devices on Ethernet monthly
-AVG_CNCTD_DVCS_WIFI,Average connected devices on WIFI monthly
-AVG_IDD_PPC_REV,Indicates Average Revenue of International(IDD) Calling Card events within a given month.
-B_7726_FLG,Flag represents usage for short code message 7726 with values Y and N
-B_AD_7726_FLG,Flag represents usage for short code message AD-7726 with values Y and N
-BAD_DBT_FLG,Flag indicates if the account is marked as bad dept or not
-BAR_FLG,"Flag represents that if customer status changed to Barring status during the month with values No , Yes , NULL"
-BAR_FLG_M6,"Flag represents that if customer status changed to Barring status during last 6 months with values N , Y , null"
-BAR_RSN,"customers Barring Status if changed with values 
-Unknown
-DUNNING
-None Payment Cessation
-Customer Request Cessation"
-BCRM_CST_ID,CRM Source System Unique Identifier that Indicates the ID of business customer
-BCRM_PRNT_CST_ID,CRM Source System Unique Identifier that Indicates the ID of parent business customer account
-BILL_ADJUSTMENTS_M1,Total amount of bill adjustments made in the first month
-BILL_ADJUSTMENTS_M2,Total amount of bill adjustments made in the second month
-BILL_ADJUSTMENTS_M3,Total amount of bill adjustments made in the third month
-BILL_ADJUSTMENTS_M4,Total amount of bill adjustments made in the fourth month
-BILL_ADJUSTMENTS_M5,Total amount of bill adjustments made in the fifth month
-BILL_ADJUSTMENTS_M6,Total amount of bill adjustments made in the sixth month
-BILL_AMT_M1,Total bill amount for the first month
-BILL_AMT_M2,Total bill amount for the second month
-BILL_AMT_M3,Total bill amount for the third month
-BILL_AMT_M4,Total bill amount for the fourth month
-BILL_AMT_M5,Total bill amount for the fifth month
-BILL_AMT_M6,Total bill amount for the sixth month
-BILL_AMT_VAT_M1,Total bill amount including VAT for the first month
-BILL_AMT_VAT_M2,Total bill amount including VAT for the second month
-BILL_AMT_VAT_M3,Total bill amount including VAT for the third month
-BILL_AMT_VAT_M4,Total bill amount including VAT for the fourth month
-BILL_AMT_VAT_M5,Total bill amount including VAT for the fifth month
-BILL_AMT_VAT_M6,Total bill amount including VAT for the sixth month
-BILL_DUE_DATE_M1,Due date for the first bill in the past six months
-BILL_DUE_DATE_M2,Due date for the second bill in the past six months
-BILL_DUE_DATE_M3,Due date for the third bill in the past six months
-BILL_DUE_DATE_M4,Due date for the fourth bill in the past six months
-BILL_DUE_DATE_M5,Due date for the fifth bill in the past six months
-BILL_DUE_DATE_M6,Due date for the sixth bill in the past six months
-BILL_IMM_ADJ_M1,Total Immediate adjustment amount for the first bill in the past six months
-BILL_IMM_ADJ_M2,Immediate adjustment amount for the second bill in the past six months
-BILL_IMM_ADJ_M3,Immediate adjustment amount for the third bill in the past six months
-BILL_IMM_ADJ_M4,Immediate adjustment amount for the forth bill in the past six months
-BILL_IMM_ADJ_M5,Immediate adjustment amount for the fifth bill in the past six months
-BILL_IMM_ADJ_M6,Immediate adjustment amount for the sixth bill in the past six months
-BILL_LIMIT,Bill Limit for each customer
-BILL_ONEOFF_ADJ_M1,"One-off adjustment amount payment for the first bill in the past six months that required to pay in order to use part of the Service, including but not limited to any non-recurring fee you may be required to pay to use part of the Service"
-BILL_ONEOFF_ADJ_M2,"One-off adjustment amount payment for the second bill in the past six months that required to pay in order to use part of the Service, including but not limited to any non-recurring fee you may be required to pay to use part of the Service"
-BILL_ONEOFF_ADJ_M3,"One-off adjustment amount payment for the third bill in the past six months that required to pay in order to use part of the Service, including but not limited to any non-recurring fee you may be required to pay to use part of the Service"
-BILL_ONEOFF_ADJ_M4,"One-off adjustment amount payment for the fourth bill in the past six months that required to pay in order to use part of the Service, including but not limited to any non-recurring fee you may be required to pay to use part of the Service"
-BILL_ONEOFF_ADJ_M5,"One-off adjustment amount payment for the fifth bill in the past six months that required to pay in order to use part of the Service, including but not limited to any non-recurring fee you may be required to pay to use part of the Service"
-BILL_ONEOFF_ADJ_M6,One-off adjustment amount for the sixth bill in the past six months
-BILL_ONETIME_M1,One-time charge amount for the first bill in the past six months
-BILL_ONETIME_M2,Total amount of one-time charges billed in the second month
-BILL_ONETIME_M3,Total amount of one-time charges billed in the third month
-BILL_ONETIME_M4,Total amount of one-time charges billed in the fourth month
-BILL_ONETIME_M5,Total amount of one-time charges billed in the fifth month
-BILL_ONETIME_M6,Total amount of one-time charges billed in the sixth month
-BILL_OUTSTANDING_M1,Total outstanding amount for the first bill in the past six months
-BILL_OUTSTANDING_M2,Total outstanding amount for the second bill in the past six months
-BILL_OUTSTANDING_M3,Total outstanding amount for the third bill in the past six months
-BILL_OUTSTANDING_M4,Total outstanding amount for the fourth bill in the past six months
-BILL_OUTSTANDING_M5,Total outstanding amount for the fifth bill in the past six months
-BILL_OUTSTANDING_M6,Total outstanding amount for the sixth bill in the past six months
-BILL_RENTALS_M1,"Total amount that usually refers to recurring charges for subscribed rented package . 
-This include monthly service charges for phone lines, internet services, or rented equipment like modems and routers for the first bill in the past six months
+SO_REV_ONNT_M3,Indicates Total Revenue of SMS Local ONnet events within a given month.
+SO_REV_ONNT_M6,Indicates Total Revenue of SMS Local ONnet events within a given month.
+SO_REV_ONNT_WK1,Indicates Total Revenue of SMS Local ONnet events within a given month.
+SO_REV_ONNT_WK2,Indicates Total Revenue of SMS Local ONnet events within a given month.
+SO_REV_ONNT_WK3,Indicates Total Revenue of SMS Local ONnet events within a given month.
+SO_REV_ONNT_WK4,Indicates Total Revenue of SMS Local ONnet events within a given month.
+SO_REV_VAT_M1,Indicates Total Revenue of SMS VAT events within a given month.
+SO_REV_WK1,Indicates Total Revenue of SMS local events within a given month.
+SO_REV_WK2,Indicates Total Revenue of SMS local events within a given month.
+SO_REV_WK3,Indicates Total Revenue of SMS local events within a given month.
+SO_REV_WK4,Indicates Total Revenue of SMS local events within a given month.
+SO_REV_WKDAY_M1,Indicates Total Revenue of SMS local events within a given month.
+SO_REV_WKEND_M1,Indicates Total Revenue of SMS local events within a given month.
+SO_ROAM_CNT_CHRG_M1,SMS Roaming Charged Transactions
+SO_ROAM_CNT_FREE_M1,SMS Roaming Free Transactions
+SO_ROAM_CNT_M1,SMS Roaming Transactions
+SO_ROAM_CNT_M3,SMS Roaming Transactions
+SO_ROAM_CNT_M6,SMS Roaming Transactions
+SO_ROAM_CNT_WK1,SMS Roaming Transactions
+SO_ROAM_CNT_WK2,SMS Roaming Transactions
+SO_ROAM_CNT_WK3,SMS Roaming Transactions
+SO_ROAM_CNT_WK4,SMS Roaming Transactions
+SO_ROAM_REV_M1,SMS Roaming Revenue
+SO_ROAM_REV_M3,SMS Roaming Revenue
+SO_ROAM_REV_M6,SMS Roaming Revenue
+SO_ROAM_REV_WK1,SMS Roaming Revenue
+SO_ROAM_REV_WK2,SMS Roaming Revenue
+SO_ROAM_REV_WK3,SMS Roaming Revenue
+SO_ROAM_REV_WK4,SMS Roaming Revenue
+SO_STD_ACT_MOU_M1,Actual National SMS usage for a specific Month
+SO_STD_CNT_CHRG_M1,SMS STD Charged Transactions
+SO_STD_CNT_FREE_M1,SMS STD Free Transactions
+SR_AVG_RSLTN_TIME_M1,SR Average resolution time.
+SR_AVG_RSLTN_TIME_M2,SR Average resolution time.
+SR_AVG_RSLTN_TIME_M3,SR Average resolution time.
+SR_CNL_CNT_M1,Number of SR Channels
+SR_CNL_CNT_M2,Number of SR Channels
+SR_CNL_CNT_M3,Number of SR Channels
+SR_CNL_CNT_M4,Number of SR Channels
+SR_CNL_CNT_M5,Number of SR Channels
+SR_CNL_CNT_M6,Number of SR Channels
+SR_CNT_M1,Number of SRs raised.
+SR_CNT_M2,Number of SRs raised.
+SR_CNT_M3,Number of SRs raised.
+SR_FAILED_M1,Number of failed SRs.
+SR_FAILED_M2,Number of failed SRs.
+SR_FAILED_M3,Number of failed SRs.
+SR_SCND_TYPE_CNT_M1,Second Most Service Order Type Count
+SR_SCND_TYPE_CNT_M2,Second Most Service Order Type Count
+SR_SCND_TYPE_CNT_M3,Second Most Service Order Type Count
+SR_SCND_TYPE_M1,Second Most Service Order Type
+SR_SCND_TYPE_M2,Second Most Service Order Type
+SR_SCND_TYPE_M3,Second Most Service Order Type
+SR_SCND_TYPE_RSLTN_TIME_M1,Second Most Service Order Type Resolution time
+SR_SCND_TYPE_RSLTN_TIME_M2,Second Most Service Order Type Resolution time
+SR_SCND_TYPE_RSLTN_TIME_M3,Second Most Service Order Type Resolution time
+SR_TOP_CNL_CNT_M1,Top Service Order Channel Count
+SR_TOP_CNL_CNT_M2,Top Service Order Channel Count
+SR_TOP_CNL_CNT_M3,Top Service Order Channel Count
+SR_TOP_CNL_CNT_M4,Top Service Order Channel Count
+SR_TOP_CNL_CNT_M5,Top Service Order Channel Count
+SR_TOP_CNL_CNT_M6,Top Service Order Channel Count
+SR_TOP_CNL_M1,Top Service Order Channel
+SR_TOP_CNL_M2,Top Service Order Channel
+SR_TOP_CNL_M3,Top Service Order Channel
+SR_TOP_CNL_M4,Top Service Order Channel
+SR_TOP_CNL_M5,Top Service Order Channel
+SR_TOP_CNL_M6,Top Service Order Channel
+SR_TOP_TYPE_CNT_M1,Top SR Type
+SR_TOP_TYPE_CNT_M2,Top SR Type
+SR_TOP_TYPE_CNT_M3,Top SR Type
+SR_TOP_TYPE_M1,Top SR Type
+SR_TOP_TYPE_M2,Top SR Type
+SR_TOP_TYPE_M3,Top SR Type
+SR_TOP_TYPE_RSLTN_TIME_M1,Top Service Order Type Resolution time
+SR_TOP_TYPE_RSLTN_TIME_M2,Top Service Order Type Resolution time
+SR_TOP_TYPE_RSLTN_TIME_M3,Top Service Order Type Resolution time
+ST_DATA_LOCAL,Segment Type Data Local
+ST_DATA_ROAM,Segment Type Data Roaming
+ST_RCHRG,Segment Type Recharge
+ST_SMS_STD,Segment Type SMS STD
+ST_VO_IDD,Segment Type Voice IDD
+ST_VO_ROAM,Segment Type Voice Roaming
+ST_VO_STD,Segment Type Voice STD
+STB_VWRSHP_DUR_SPNT,Set top box view duration
+STRT_STP_FLG,In bundle start stop flag
+STRT_STP_REV,In bundle start stop revenue
+SVC_CNT_FXD,Single customer view fixed count
+TENURE,The length of time the customer has been held as a subscriber
+TOP_BRWSD_1_MNTHLY,Top browsed app monthly
+TOP_BRWSD_2_MNTHLY,Top browsed app monthly
+TOP_BRWSD_3_MNTHLY,Top browsed app monthly
+TOP_BRWSD_4_MNTHLY,Top browsed app monthly
+TOP_BRWSD_5_MNTHLY,Top browsed app monthly
+TOP_CALD_IDD_MOU_M1,Top called IDD usage
+TOP_CALD_STD_MOU_M1,Top called STD usage
+TOP_CHNL_TOT_PMNT_RAT_M1,Top Channel Payment Ratio
+TOP_ROAM_CTY_1,Top Roaming Country
+TOP_ROAM_CTY_2,Top Roaming Country
+TOP_ROAM_CTY_3,Top Roaming Country
+TOPUP_AMNT_1,Indicates the amount of top up for the top denomination by customer
+TOPUP_AMNT_2,Indicates the amount of top up for the top denomination by customer
+TOPUP_CNT_1,Indicates the count of top up for the top denomination by customer
+TOPUP_CNT_2,Indicates the count of top up for the top denomination by customer
+TOPUP_MST_USD_DENOM_1,Indicates the most preferred denomation of top up by customer
+TOPUP_MST_USD_DENOM_2,Indicates the most preferred denomation of top up by customer
+TOT_DVC_PLAN_EMI_AMT,Total Device Plan Emi amount
+TOT_DVC_PLAN_EMI_CNT,Total Device Plan EMI count
+TOT_MRC_DATA_ADD_DEACT_M1,Total MRC of Data addon ceased in M1
+TOT_MRC_DATA_ADDON_ACT_M1,Total MRC of Data addons activated in M1
+TOT_MRC_IDD_ADDON_ACT_M1,Total MRC of IDD addons activated in M1
+TOT_MRC_IDD_ADDON_DEACT_M1,Total MRC of IDD addon ceased in M1
+TOT_MRC_ROAM_VO_ADDON_ACT_M1,Total MRC of Voice Roaming addons activated in M1
+TOT_MRC_ROAM_VO_ADDON_DEACT_M1,Total MRC of Voice Roaming addon ceased in M1
+TOT_MRC_STD_ADDON_ACT_M1,Total MRC of STD addons activated in M1
+TOT_MRC_STD_ADDON_DEACT_M1,Total MRC of STD addon ceased in M1
+TOT_RNTL_AMT,Indicates the total rental amount of the customer for the billing period
+TOT700_AMT_M1,Monthly Total Type 700 Amount
+TOTAL_RECURRING_AMOUNT,"Amount of charges that a customer has to pay after every pre-defined interval of time till the customer avails of the Service. This pre-defined interval of time can be monthly, quarterly, half-yearly, yearly, etc."
+USG_TOT_REV,Indicates the total usage amount of the customer for the billing period
+VAS_CD_CONT_BARR_ISD_FLG,Value Added service ISD Bar flag
+VAS_CD_CONT_BARR_ISD_REV,Value Added service ISD Bar Revenue
+VAS_CD_CONT_BARR_STD_FLG,Value Added service STD Bar flag
+VAS_CD_CONT_BARR_STD_REV,Value Added service STD Bar Revenue
+VAS_CFW_BSY_NO_ANS_FLG,Value Added service Busy No answer flag
+VAS_CFW_BSY_NO_ANS_REV,Value Added service Busy No answer revenue
+VAS_CLIP_FLG,Value Added service CLIP flag
+VAS_CLIP_REV,Value Added service CLIP revenue
+VAS_CONF_FLG,Value Added service conference flag
+VAS_CONF_REV,Value Added service conference revenue
+VAS_CW_FLG,Value Added service call waiting flag
+VAS_CW_REV,Value Added service call waiting revenue
+VAS_EXC_BARR_0_00_FLG,Value Added service call exclude incoming 0_00 flag
+VAS_EXC_BARR_0_00_REV,Value Added service call exclude incoming  0_00 revenue
+VAS_EXC_BARR_00_FLG,Value Added service call exclude 00 flag
+VAS_EXC_BARR_00_REV,Value Added service call exclude 00 revenue
+VAS_INC_EXC_BARR_FLG,Value added service inoming bar flag
+VAS_INC_EXC_BARR_REV,Value added service inoming bar revenue
+VAS_NAJMA_CALL_PLS_FLG,Value added service najma call please flag
+VAS_NAJMA_CALL_PLS_REV,Value added service najma call please revenue
+VAS_STARPACK_FLG,Value added service starpack flag
+VAS_STARPACK_REV,Value added service starpack revenue
+VAS_VM_FLG,Value added service voice mail flag
+VAS_VM_REV,Value added service voice mail revenue
+VCHR_ACT_CNT,Voucher currently active count
+VCHR_DWN_AVG_M3,Voucher Downloaded Average in 3 months
+VCHR_DWN_CNT,Voucher Downloaded Count
+VCHR_EXPRD_CNT_M1,Voucher Expired Count
+VCHR_RDMPTN_AVG_M3,Voucher Redeemed Average in 3 months
+VI_CNT_M1,Indicates Number of Occurences of Incoming Voice events within a given month.
+VI_DUR_M1,Indicates Duration (Seconds) of Incoming Voice events within a given month.
+VI_DUR_M1_2,Indicates Duration (Seconds) of Incoming Voice events within a given month.
+VO_CNT_CHRG_M1,Indicates Number of Occurences of Charged Local Voice events within a given month.
+VO_CNT_CHRG_M3,Indicates Number of Occurences of Charged Local Voice events within a given month.
+VO_CNT_CHRG_M6,Indicates Number of Occurences of Charged Local Voice events within a given month.
+VO_CNT_CHRG_WK1,"Indicates Number of Occurences of Charged Local Voice events within a given month.
+"
+VO_CNT_CHRG_WK2,"Indicates Number of Occurences of Charged Local Voice events within a given month.
+"
+VO_CNT_CHRG_WK3,"Indicates Number of Occurences of Charged Local Voice events within a given month.
+"
+VO_CNT_CHRG_WK4,"Indicates Number of Occurences of Charged Local Voice events within a given month.
+"
+VO_CNT_FREE_M1,Indicates Number of Occurences of Free Local Voice events within a given month.
+VO_CNT_FREE_M3,Indicates Number of Occurences of Free Local Voice events within a given month.
+VO_CNT_FREE_M6,Indicates Number of Occurences of Free Local Voice events within a given month.
+VO_CNT_FREE_WK1,"Indicates Number of Occurences of Free Local Voice events within a given month.
+"
+VO_CNT_FREE_WK2,"Indicates Number of Occurences of Free Local Voice events within a given month.
+"
+VO_CNT_FREE_WK3,"Indicates Number of Occurences of Free Local Voice events within a given month.
+"
+VO_CNT_FREE_WK4,"Indicates Number of Occurences of Free Local Voice events within a given month.
+"
+VO_CNT_IB_M1,Voice Incoming In Bundle Count
+VO_CNT_IB_M3,Voice Incoming In Bundle Count
+VO_CNT_IB_M6,Voice Incoming In Bundle Count
+VO_CNT_IB_WK1,Voice Incoming In Bundle Count
+VO_CNT_IB_WK2,Voice Incoming In Bundle Count
+VO_CNT_IB_WK3,Voice Incoming In Bundle Count
+VO_CNT_IB_WK4,Voice Incoming In Bundle Count
+VO_CNT_M1,Indicates Number of Occurences of Total Local Voice events within a given month.
+VO_CNT_M3,Indicates Number of Occurences of Total Local Voice events within a given month.
+VO_CNT_M6,Indicates Number of Occurences of Total Local Voice events within a given month.
+VO_CNT_OFFNT_M1,Indicates Number of Occurences of Local Voice Offnet events within a given month.
+VO_CNT_OFFNT_M3,Indicates Number of Occurences of Local Voice Offnet events within a given month.
+VO_CNT_OFFNT_M6,Indicates Number of Occurences of Local Voice Offnet events within a given month.
+VO_CNT_OFFNT_WK1,"Indicates Number of Occurences of Local Voice Offnet events within a given month.
+"
+VO_CNT_OFFNT_WK2,"Indicates Number of Occurences of Local Voice Offnet events within a given month.
+"
+VO_CNT_OFFNT_WK3,"Indicates Number of Occurences of Local Voice Offnet events within a given month.
+"
+VO_CNT_OFFNT_WK4,"Indicates Number of Occurences of Local Voice Offnet events within a given month.
+"
+VO_CNT_ONNT_M1,Indicates Number of Occurences of Local Voice Onnet events within a given month.
+VO_CNT_ONNT_M3,Indicates Number of Occurences of Local Voice Onnet events within a given month.
+VO_CNT_ONNT_M6,Indicates Number of Occurences of Local Voice Onnet events within a given month.
+VO_CNT_ONNT_WK1,"Indicates Number of Occurences of Local Voice Onnet events within a given month.
+"
+VO_CNT_ONNT_WK2,"Indicates Number of Occurences of Local Voice Onnet events within a given month.
+"
+VO_CNT_ONNT_WK3,"Indicates Number of Occurences of Local Voice Onnet events within a given month.
+"
+VO_CNT_ONNT_WK4,"Indicates Number of Occurences of Local Voice Onnet events within a given month.
+"
+VO_CNT_WK1,"Indicates Number of Occurences of Total Local Voice events within a given month.
+"
+VO_CNT_WK2,"Indicates Number of Occurences of Total Local Voice events within a given month.
+"
+VO_CNT_WK3,"Indicates Number of Occurences of Total Local Voice events within a given month.
+"
+VO_CNT_WK4,"Indicates Number of Occurences of Total Local Voice events within a given month.
+"
+VO_CNT_WKDAY_M1,"Indicates Number of Occurences of Total Local Voice events within a given month.
+"
+VO_CNT_WKEND_M1,"Indicates Number of Occurences of Total Local Voice events within a given month.
+"
+VO_CUG_CNT_CHRG_M1,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_CHRG_M3,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_CHRG_M6,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_CHRG_WK1,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_CHRG_WK2,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_CHRG_WK3,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_CHRG_WK4,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_FREE_M1,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_FREE_M3,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_FREE_M6,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_FREE_WK1,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_FREE_WK2,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_FREE_WK3,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_FREE_WK4,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_IB_M1,Voice CUG In Bundle Count
+VO_CUG_CNT_IB_M3,Voice CUG In Bundle Count
+VO_CUG_CNT_IB_M6,Voice CUG In Bundle Count
+VO_CUG_CNT_IB_WK1,Voice CUG In Bundle Count
+VO_CUG_CNT_IB_WK2,Voice CUG In Bundle Count
+VO_CUG_CNT_IB_WK3,Voice CUG In Bundle Count
+VO_CUG_CNT_IB_WK4,Voice CUG In Bundle Count
+VO_CUG_CNT_M1,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_M3,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_M6,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_WK1,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_WK2,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_WK3,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_WK4,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_WKDAY_M1,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_CNT_WKEND_M1,Indicates Number of Occurences of Total Local Voice CUG events within a given month.
+VO_CUG_MOU_CHRG_M1,Indicates Total Minutes of Charged Local Voice CUG events within a given month.
+VO_CUG_MOU_CHRG_M3,Indicates Total Minutes of Charged Local Voice CUG events within a given month.
+VO_CUG_MOU_CHRG_M6,Indicates Total Minutes of Charged Local Voice CUG events within a given month.
+VO_CUG_MOU_CHRG_WK1,Indicates Total Minutes of Charged Local Voice CUG events within a given month.
+VO_CUG_MOU_CHRG_WK2,Indicates Total Minutes of Charged Local Voice CUG events within a given month.
+VO_CUG_MOU_CHRG_WK3,Indicates Total Minutes of Charged Local Voice CUG events within a given month.
+VO_CUG_MOU_CHRG_WK4,Indicates Total Minutes of Charged Local Voice CUG events within a given month.
+VO_CUG_MOU_FREE_M1,Indicates Total Minutes of Free Local Voice CUG events within a given month.
+VO_CUG_MOU_FREE_M3,Indicates Total Minutes of Free Local Voice CUG events within a given month.
+VO_CUG_MOU_FREE_M6,Indicates Total Minutes of Free Local Voice CUG events within a given month.
+VO_CUG_MOU_FREE_WK1,Indicates Total Minutes of Free Local Voice CUG events within a given month.
+VO_CUG_MOU_FREE_WK2,Indicates Total Minutes of Free Local Voice CUG events within a given month.
+VO_CUG_MOU_FREE_WK3,Indicates Total Minutes of Free Local Voice CUG events within a given month.
+VO_CUG_MOU_FREE_WK4,Indicates Total Minutes of Free Local Voice CUG events within a given month.
+VO_CUG_MOU_IB_M1,Voice CUG In Bundle Usage
+VO_CUG_MOU_IB_M3,Voice CUG In Bundle Usage
+VO_CUG_MOU_IB_M6,Voice CUG In Bundle Usage
+VO_CUG_MOU_IB_WK1,Voice CUG In Bundle Usage
+VO_CUG_MOU_IB_WK2,Voice CUG In Bundle Usage
+VO_CUG_MOU_IB_WK3,Voice CUG In Bundle Usage
+VO_CUG_MOU_IB_WK4,Voice CUG In Bundle Usage
+VO_CUG_MOU_M1,Indicates Total Minutes of Local Voice CUG events within a given month.
+VO_CUG_MOU_M3,Indicates Total Minutes of Local Voice CUG events within a given month.
+VO_CUG_MOU_M6,Indicates Total Minutes of Local Voice CUG events within a given month.
+VO_CUG_MOU_WK1,Indicates Total Minutes of Local Voice CUG events within a given month.
+VO_CUG_MOU_WK2,Indicates Total Minutes of Local Voice CUG events within a given month.
+VO_CUG_MOU_WK3,Indicates Total Minutes of Local Voice CUG events within a given month.
+VO_CUG_MOU_WK4,Indicates Total Minutes of Local Voice CUG events within a given month.
+VO_CUG_REV_M1,Indicates Total Revenue of Local Voice CUG events within a given month.
+VO_CUG_REV_M3,Indicates Total Revenue of Local Voice CUG events within a given month.
+VO_CUG_REV_M6,Indicates Total Revenue of Local Voice CUG events within a given month.
+VO_CUG_REV_WK1,Indicates Total Revenue of Local Voice CUG events within a given month.
+VO_CUG_REV_WK2,Indicates Total Revenue of Local Voice CUG events within a given month.
+VO_CUG_REV_WK3,Indicates Total Revenue of Local Voice CUG events within a given month.
+VO_CUG_REV_WK4,Indicates Total Revenue of Local Voice CUG events within a given month.
+VO_CUG_REV_WKDAY_M1,Indicates Total Revenue of Local Voice CUG events within a given month.
+VO_CUG_REV_WKEND_M1,Indicates Total Revenue of Local Voice CUG events within a given month.
+VO_F2F_OFFNT_CNT_M1,Voice Fixed to Fixed Offnet Count
+VO_F2F_OFFNT_MOU_M1,Voice Fixed to Fixed Offnet Usage
+VO_F2F_OFFNT_REV_M1,Voice Fixed to Fixed Offnet Revenue
+VO_F2F_ONNT_CNT_M1,Indicates Number of Occurences of Fixed to Fixed Onnet events within a given month.
+VO_F2F_ONNT_MOU_M1,Indicates Rounded Minutes of Fixed to Fixed Onnet events within a given month.
+VO_F2F_ONNT_REV_M1,Indicates Total Revenue of Fixed to Fixed Onnet events within a given month.
+VO_F2I_CNT_M1,Voice Fixed to International Count
+VO_F2I_MOU_M1,Voice Fixed to International Usage
+VO_F2I_REV_M1,Voice Fixed to International Revenue
+VO_F2M_OFFNT_CNT_M1,Indicates Number of Occurences of Fixed to Mobile Offnet events within a given month.
+VO_F2M_OFFNT_MOU_M1,Indicates Rounded Minutes of Fixed to Mobile Offnet events within a given month.
+VO_F2M_OFFNT_REV_M1,Indicates Total Revenue of Fixed to Mobile Offnet events within a given month.
+VO_F2M_ONNT_CNT_M1,Indicates Number of Occurences of Fixed to Mobile Onnet events within a given month.
+VO_F2M_ONNT_MOU_M1,Indicates Rounded Minutes of Fixed to Mobile Onnet events within a given month.
+VO_F2M_ONNT_REV_M1,Indicates Total Revenue of Fixed to Mobile Onnet events within a given month.
+VO_FIX_CNT_CHRG_M1,Indicates Number of Occurences of Charged to Fixed events within a given month.
+VO_FIX_CNT_CHRG_M3,Indicates Number of Occurences of Charged to Fixed events within a given month.
+VO_FIX_CNT_CHRG_M6,Indicates Number of Occurences of Charged to Fixed events within a given month.
+VO_FIX_CNT_CHRG_WK1,"Indicates Number of Occurences of Charged to Fixed events within a given month.
+"
+VO_FIX_CNT_CHRG_WK2,"Indicates Number of Occurences of Charged to Fixed events within a given month.
+"
+VO_FIX_CNT_CHRG_WK3,"Indicates Number of Occurences of Charged to Fixed events within a given month.
+"
+VO_FIX_CNT_CHRG_WK4,"Indicates Number of Occurences of Charged to Fixed events within a given month.
+"
+VO_FIX_CNT_FREE_M1,Indicates Number of Occurences of Free to Fixed events within a given month.
+VO_FIX_CNT_FREE_M3,Indicates Number of Occurences of Free to Fixed events within a given month.
+VO_FIX_CNT_FREE_M6,Indicates Number of Occurences of Free to Fixed events within a given month.
+VO_FIX_CNT_FREE_WK1,"Indicates Number of Occurences of Free to Fixed events within a given month.
+"
+VO_FIX_CNT_FREE_WK2,"Indicates Number of Occurences of Free to Fixed events within a given month.
+"
+VO_FIX_CNT_FREE_WK3,"Indicates Number of Occurences of Free to Fixed events within a given month.
+"
+VO_FIX_CNT_FREE_WK4,"Indicates Number of Occurences of Free to Fixed events within a given month.
+"
+VO_FIX_CNT_IB_M1,Voice to Fixed In bundle count
+VO_FIX_CNT_IB_M3,Voice to Fixed In bundle count
+VO_FIX_CNT_IB_M6,Voice to Fixed In bundle count
+VO_FIX_CNT_IB_WK1,Voice to Fixed In bundle count
+VO_FIX_CNT_IB_WK2,Voice to Fixed In bundle count
+VO_FIX_CNT_IB_WK3,Voice to Fixed In bundle count
+VO_FIX_CNT_IB_WK4,Voice to Fixed In bundle count
+VO_FIX_CNT_M1,Indicates Number of Occurences of Total to Fixed events within a given month.
+VO_FIX_CNT_M3,Indicates Number of Occurences of Total to Fixed events within a given month.
+VO_FIX_CNT_M6,Indicates Number of Occurences of Total to Fixed events within a given month.
+VO_FIX_CNT_OFFNT_M1,Voice to Fixed offnet count
+VO_FIX_CNT_OFFNT_M3,Voice to Fixed offnet count
+VO_FIX_CNT_OFFNT_M6,Voice to Fixed offnet count
+VO_FIX_CNT_OFFNT_WK1,Voice to Fixed offnet count
+VO_FIX_CNT_OFFNT_WK2,Voice to Fixed offnet count
+VO_FIX_CNT_OFFNT_WK3,Voice to Fixed offnet count
+VO_FIX_CNT_OFFNT_WK4,Voice to Fixed offnet count
+VO_FIX_CNT_ONNT_M1,Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
+VO_FIX_CNT_ONNT_M3,Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
+VO_FIX_CNT_ONNT_M6,Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
+VO_FIX_CNT_ONNT_WK1,"Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_CNT_ONNT_WK2,"Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_CNT_ONNT_WK3,"Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_CNT_ONNT_WK4,"Indicates Number of Occurences of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_CNT_WK1,"Indicates Number of Occurences of Total to Fixed events within a given month.
+"
+VO_FIX_CNT_WK2,"Indicates Number of Occurences of Total to Fixed events within a given month.
+"
+VO_FIX_CNT_WK3,"Indicates Number of Occurences of Total to Fixed events within a given month.
+"
+VO_FIX_CNT_WK4,"Indicates Number of Occurences of Total to Fixed events within a given month.
+"
+VO_FIX_CNT_WKDAY_M1,"Indicates Number of Occurences of Total to Fixed events within a given month.
+"
+VO_FIX_CNT_WKEND_M1,"Indicates Number of Occurences of Total to Fixed events within a given month.
+"
+VO_FIX_MOU_CHRG_M1,Indicates Rounded Minutes of Charged to Fixed events within a given month.
+VO_FIX_MOU_CHRG_M3,Indicates Rounded Minutes of Charged to Fixed events within a given month.
+VO_FIX_MOU_CHRG_M6,Indicates Rounded Minutes of Charged to Fixed events within a given month.
+VO_FIX_MOU_CHRG_WK1,"Indicates Rounded Minutes of Charged to Fixed events within a given month.
+"
+VO_FIX_MOU_CHRG_WK2,"Indicates Rounded Minutes of Charged to Fixed events within a given month.
+"
+VO_FIX_MOU_CHRG_WK3,"Indicates Rounded Minutes of Charged to Fixed events within a given month.
+"
+VO_FIX_MOU_CHRG_WK4,"Indicates Rounded Minutes of Charged to Fixed events within a given month.
+"
+VO_FIX_MOU_FREE_M1,Indicates Rounded Minutes of Free to Fixed events within a given month.
+VO_FIX_MOU_FREE_M3,Indicates Rounded Minutes of Free to Fixed events within a given month.
+VO_FIX_MOU_FREE_M6,Indicates Rounded Minutes of Free to Fixed events within a given month.
+VO_FIX_MOU_FREE_WK1,"Indicates Rounded Minutes of Free to Fixed events within a given month.
+"
+VO_FIX_MOU_FREE_WK2,"Indicates Rounded Minutes of Free to Fixed events within a given month.
+"
+VO_FIX_MOU_FREE_WK3,"Indicates Rounded Minutes of Free to Fixed events within a given month.
+"
+VO_FIX_MOU_FREE_WK4,"Indicates Rounded Minutes of Free to Fixed events within a given month.
+"
+VO_FIX_MOU_IB_M1,Voice to Fixed In bundle Usage
+VO_FIX_MOU_IB_M3,Voice to Fixed In bundle Usage
+VO_FIX_MOU_IB_M6,Voice to Fixed In bundle Usage
+VO_FIX_MOU_IB_WK1,Voice to Fixed In bundle Usage
+VO_FIX_MOU_IB_WK2,Voice to Fixed In bundle Usage
+VO_FIX_MOU_IB_WK3,Voice to Fixed In bundle Usage
+VO_FIX_MOU_IB_WK4,Voice to Fixed In bundle Usage
+VO_FIX_MOU_M1,Indicates Rounded Minutes of Total to Fixed events within a given month.
+VO_FIX_MOU_M3,Indicates Rounded Minutes of Total to Fixed events within a given month.
+VO_FIX_MOU_M6,Indicates Rounded Minutes of Total to Fixed events within a given month.
+VO_FIX_MOU_OFFNT_M1,Voice to Fixed offnet Usage
+VO_FIX_MOU_OFFNT_M3,Voice to Fixed offnet Usage
+VO_FIX_MOU_OFFNT_M6,Voice to Fixed offnet Usage
+VO_FIX_MOU_OFFNT_WK1,Voice to Fixed offnet Usage
+VO_FIX_MOU_OFFNT_WK2,Voice to Fixed offnet Usage
+VO_FIX_MOU_OFFNT_WK3,Voice to Fixed offnet Usage
+VO_FIX_MOU_OFFNT_WK4,Voice to Fixed offnet Usage
+VO_FIX_MOU_OFFNT_WKDAY_M1,Monthly Weekday Voice Fixed Offnet MOU
+VO_FIX_MOU_OFFNT_WKEND_M1,Monthly Weekend Voice Fixed Offnet MOU
+VO_FIX_MOU_ONNT_M1,Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
+VO_FIX_MOU_ONNT_M3,Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
+VO_FIX_MOU_ONNT_M6,Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
+VO_FIX_MOU_ONNT_WK1,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_MOU_ONNT_WK2,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_MOU_ONNT_WK3,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_MOU_ONNT_WK4,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_MOU_ONNT_WKDAY_M1,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_MOU_ONNT_WKEND_M1,"Indicates Rounded Minutes of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_MOU_WK1,"Indicates Rounded Minutes of Total to Fixed events within a given month.
+"
+VO_FIX_MOU_WK2,"Indicates Rounded Minutes of Total to Fixed events within a given month.
+"
+VO_FIX_MOU_WK3,"Indicates Rounded Minutes of Total to Fixed events within a given month.
+"
+VO_FIX_MOU_WK4,"Indicates Rounded Minutes of Total to Fixed events within a given month.
+"
+VO_FIX_REV_M1,Indicates Total Revenue of Total to Fixed events within a given month.
+VO_FIX_REV_M3,Indicates Total Revenue of Total to Fixed events within a given month.
+VO_FIX_REV_M6,Indicates Total Revenue of Total to Fixed events within a given month.
+VO_FIX_REV_OFFNT_M1,Monthly Voice Fixed Offnet Revenue
+VO_FIX_REV_OFFNT_M3,Monthly Voice Fixed Offnet Revenue
+VO_FIX_REV_OFFNT_M6,Monthly Voice Fixed Offnet Revenue
+VO_FIX_REV_OFFNT_WK1,Weekly Voice Fixed Offnet Revenue
+VO_FIX_REV_OFFNT_WK2,Weekly Voice Fixed Offnet Revenue
+VO_FIX_REV_OFFNT_WK3,Weekly Voice Fixed Offnet Revenue
+VO_FIX_REV_OFFNT_WK4,Weekly Voice Fixed Offnet Revenue
+VO_FIX_REV_ONNT_M1,Indicates Total Revenue of Total to Fixed Onnet events within a given month.
+VO_FIX_REV_ONNT_M3,Indicates Total Revenue of Total to Fixed Onnet events within a given month.
+VO_FIX_REV_ONNT_M6,Indicates Total Revenue of Total to Fixed Onnet events within a given month.
+VO_FIX_REV_ONNT_WK1,"Indicates Total Revenue of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_REV_ONNT_WK2,"Indicates Total Revenue of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_REV_ONNT_WK3,"Indicates Total Revenue of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_REV_ONNT_WK4,"Indicates Total Revenue of Total to Fixed Onnet events within a given month.
+"
+VO_FIX_REV_WK1,"Indicates Total Revenue of Total to Fixed events within a given month.
+"
+VO_FIX_REV_WK2,"Indicates Total Revenue of Total to Fixed events within a given month.
+"
+VO_FIX_REV_WK3,"Indicates Total Revenue of Total to Fixed events within a given month.
+"
+VO_FIX_REV_WK4,"Indicates Total Revenue of Total to Fixed events within a given month.
+"
+VO_FIX_REV_WKDAY_M1,"Indicates Total Revenue of Total to Fixed events within a given month.
+"
+VO_FIX_REV_WKEND_M1,"Indicates Total Revenue of Total to Fixed events within a given month.
+"
+VO_IDD_2ND_CNTRY,"Indicates Rank of International(IDD) Voice events within a given month.
 
+Rank:
+Top : ranking of all and selecting first in rank
+2nd: Ranking of all and selecting second in rank"
+VO_IDD_2ND_CNTRY_CNT,"Indicates Number of Occurences of International(IDD) Voice events within a given month.
+
+Rank:
+Top : ranking of all and selecting first in rank
+2nd: Ranking of all and selecting second in rank"
+VO_IDD_2ND_CNTRY_MOU,"Indicates Total Minutes of International(IDD) Voice events within a given month.
+
+Rank:
+Top : ranking of all and selecting first in rank
+2nd: Ranking of all and selecting second in rank"
+VO_IDD_2ND_CNTRY_REV,"Indicates Total Revenue of International(IDD) Voice events within a given month.
+
+Rank:
+Top : ranking of all and selecting first in rank
+2nd: Ranking of all and selecting second in rank"
+VO_IDD_3RD_CNTRY,"Indicates Rank of International(IDD) Voice events within a given month.
+
+Rank:
+Top : ranking of all and selecting first in rank
+2nd: Ranking of all and selecting second in rank"
+VO_IDD_3RD_CNTRY_CNT,"Indicates Number of Occurences of International(IDD) Voice events within a given month.
+
+Rank:
+Top : ranking of all and selecting first in rank
+2nd: Ranking of all and selecting second in rank"
+VO_IDD_3RD_CNTRY_MOU,"Indicates Total Minutes of International(IDD) Voice events within a given month.
+
+Rank:
+Top : ranking of all and selecting first in rank
+2nd: Ranking of all and selecting second in rank"
+VO_IDD_3RD_CNTRY_REV,"Indicates Total Revenue of International(IDD) Voice events within a given month.
+
+Rank:
+Top : ranking of all and selecting first in rank
+2nd: Ranking of all and selecting second in rank"
+VO_IDD_ACT_MOU_M1,Duration of actual Voice MOUS for a specific Month
+VO_IDD_CNT_CHRG_M1,Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
+VO_IDD_CNT_CHRG_M3,Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
+VO_IDD_CNT_CHRG_M6,Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
+VO_IDD_CNT_CHRG_WK1,Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
+VO_IDD_CNT_CHRG_WK2,Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
+VO_IDD_CNT_CHRG_WK3,Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
+VO_IDD_CNT_CHRG_WK4,Indicates Number of Occurences of Charged International (IDD) Voice events within a given month.
+VO_IDD_CNT_FREE_M1,Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
+VO_IDD_CNT_FREE_M3,Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
+VO_IDD_CNT_FREE_M6,Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
+VO_IDD_CNT_FREE_WK1,Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
+VO_IDD_CNT_FREE_WK2,Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
+VO_IDD_CNT_FREE_WK3,Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
+VO_IDD_CNT_FREE_WK4,Indicates Number of Occurences of Free International (IDD) Voice events within a given month.
+VO_IDD_CNT_IB_M1,Monthly Voice International Inbound Count
+VO_IDD_CNT_IB_M3,Monthly Voice International Inbound Count
+VO_IDD_CNT_IB_M6,Monthly Voice International Inbound Count
+VO_IDD_CNT_IB_WK1,Weekly Voice International Inbound Count
+VO_IDD_CNT_IB_WK2,Weekly Voice International Inbound Count
+VO_IDD_CNT_IB_WK3,Weekly Voice International Inbound Count
+VO_IDD_CNT_IB_WK4,Weekly Voice International Inbound Count
+VO_IDD_CNT_M1,Indicates Number of Occurences of International(IDD) Voice events within a given month.
+VO_IDD_CNT_M3,Indicates Number of Occurences of International(IDD) Voice events within a given month.
+VO_IDD_CNT_M6,Indicates Number of Occurences of International(IDD) Voice events within a given month.
+VO_IDD_CNT_WK1,Indicates Number of Occurences of International(IDD) Voice events within a given month.
+VO_IDD_CNT_WK2,Indicates Number of Occurences of International(IDD) Voice events within a given month.
+VO_IDD_CNT_WK3,Indicates Number of Occurences of International(IDD) Voice events within a given month.
+VO_IDD_CNT_WK4,Indicates Number of Occurences of International(IDD) Voice events within a given month.
+VO_IDD_INC_ACT_MOU_M1,Voice International Incoming Acutal Minutes of Usage
+VO_IDD_LNGST_CALL_ACT_MOU_M1,Duration for the longest international Voice call for a specific month
+VO_IDD_MOU_CHRG_M1,"Indicates Total Minutes of Charged International (IDD) Voice events within a given month.
+VO_IDD_OB_ACT_MOU_M1"
+VO_IDD_MOU_CHRG_M3,Indicates Total Minutes of Charged International (IDD) Voice events within a given month.
+VO_IDD_MOU_CHRG_M6,Indicates Total Minutes of Charged International (IDD) Voice events within a given month.
+VO_IDD_MOU_CHRG_WK1,Indicates Total Minutes of Charged International (IDD) Voice events within a given month.
+VO_IDD_MOU_CHRG_WK2,Indicates Total Minutes of Charged International (IDD) Voice events within a given month.
+VO_IDD_MOU_CHRG_WK3,Indicates Total Minutes of Charged International (IDD) Voice events within a given month.
+VO_IDD_MOU_CHRG_WK4,Indicates Total Minutes of Charged International (IDD) Voice events within a given month.
+VO_IDD_MOU_FREE_M1,Indicates Total Minutes of Free International (IDD) Voice events within a given month.
+VO_IDD_MOU_FREE_M3,Indicates Total Minutes of Free International (IDD) Voice events within a given month.
+VO_IDD_MOU_FREE_M6,Indicates Total Minutes of Free International (IDD) Voice events within a given month.
+VO_IDD_MOU_FREE_WK1,Indicates Total Minutes of Free International (IDD) Voice events within a given month.
+VO_IDD_MOU_FREE_WK2,Indicates Total Minutes of Free International (IDD) Voice events within a given month.
+VO_IDD_MOU_FREE_WK3,Indicates Total Minutes of Free International (IDD) Voice events within a given month.
+VO_IDD_MOU_FREE_WK4,Indicates Total Minutes of Free International (IDD) Voice events within a given month.
+VO_IDD_MOU_IB_M1,Monthly Voice International Inbound Minutes of Usage
+VO_IDD_MOU_IB_M3,Monthly Voice International Inbound Minutes of Usage
+VO_IDD_MOU_IB_M6,Monthly Voice International Inbound Minutes of Usage
+VO_IDD_MOU_IB_WK1,Weekly Voice International Inbound Minutes of Usage
+VO_IDD_MOU_IB_WK2,Weekly Voice International Inbound Minutes of Usage
+VO_IDD_MOU_IB_WK3,Weekly Voice International Inbound Minutes of Usage
+VO_IDD_MOU_IB_WK4,Weekly Voice International Inbound Minutes of Usage
+VO_IDD_MOU_M1,Indicates Total Minutes of International(IDD) Voice events within a given month.
+VO_IDD_MOU_M3,Indicates Total Minutes of International(IDD) Voice events within a given month.
+VO_IDD_MOU_M6,Indicates Total Minutes of International(IDD) Voice events within a given month.
+VO_IDD_MOU_WK1,Indicates Total Minutes of International(IDD) Voice events within a given month.
+VO_IDD_MOU_WK2,Indicates Total Minutes of International(IDD) Voice events within a given month.
+VO_IDD_MOU_WK3,Indicates Total Minutes of International(IDD) Voice events within a given month.
+VO_IDD_MOU_WK4,Indicates Total Minutes of International(IDD) Voice events within a given month.
+VO_IDD_OB_ACT_MOU_M1,Voice International Outbound Actual Minutes of Usage
+VO_IDD_OB_REV_M1,Voice International Outbound Revenue
+VO_IDD_REV_M1,Indicates Total Revenue of International(IDD) Voice events within a given month.
+VO_IDD_REV_M3,Indicates Total Revenue of International(IDD) Voice events within a given month.
+VO_IDD_REV_M6,Indicates Total Revenue of International(IDD) Voice events within a given month.
+VO_IDD_REV_WK1,Indicates Total Revenue of International(IDD) Voice events within a given month.
+VO_IDD_REV_WK2,Indicates Total Revenue of International(IDD) Voice events within a given month.
+VO_IDD_REV_WK3,Indicates Total Revenue of International(IDD) Voice events within a given month.
+VO_IDD_REV_WK4,Voice International Revenue Weekly
+VO_IDD_TOP_CNTRY,"Indicates Rank of International(IDD) Voice events within a given month.
+
+Rank:
+Top : ranking of all and selecting first in rank
+2nd: Ranking of all and selecting second in rank"
+VO_IDD_TOP_CNTRY_CNT,"Indicates Number of Occurences of International(IDD) Voice events within a given month.
+
+Rank:
+Top : ranking of all and selecting first in rank
+2nd: Ranking of all and selecting second in rank"
+VO_IDD_TOP_CNTRY_MOU,"Indicates Total Minutes of International(IDD) Voice events within a given month.
+
+Rank:
+Top : ranking of all and selecting first in rank
+2nd: Ranking of all and selecting second in rank"
+VO_IDD_TOP_CNTRY_REV,"Indicates Total Revenue of International(IDD) Voice events within a given month.
+
+Rank:
+Top : ranking of all and selecting first in rank
+2nd: Ranking of all and selecting second in rank"
+VO_IDD_TOT_REV,Indicates Total Revenue of International(IDD) Voice events within a given month.
+VO_INC_MOB_UNQ_CLR_M1,Monthly Voice Incoming Mobile Unique Callers
+VO_INC_MOB_UNQ_CLR_M3,Monthly Voice Incoming Mobile Unique Callers
+VO_INC_MOB_UNQ_CLR_M6,Monthly Voice Incoming Mobile Unique Callers
+VO_MOB_CNT_CHRG_M1,Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
+VO_MOB_CNT_CHRG_M3,Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
+VO_MOB_CNT_CHRG_M6,Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
+VO_MOB_CNT_CHRG_WK1,"Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
 "
-BILL_RENTALS_M2,"Total amount that usually refers to recurring charges for subscribed rented package . This include monthly service charges for phone lines, internet services, or rented equipment like modems and routers for the second bill in the past six months"
-BILL_RENTALS_M3,"Total amount that usually refers to recurring charges for subscribed rented package . This include monthly service charges for phone lines, internet services, or rented equipment like modems and routers for the third bill in the past six months"
-BILL_RENTALS_M4,"Total amount that usually refers to recurring charges for subscribed rented package . This include monthly service charges for phone lines, internet services, or rented equipment like modems and routers for the fourth bill in the past six months"
-BILL_RENTALS_M5,"Total amount that usually refers to recurring charges for subscribed rented package . This include monthly service charges for phone lines, internet services, or rented equipment like modems and routers for the fifth bill in the past six months"
-BILL_RENTALS_M6,"Total amount that usually refers to recurring charges for subscribed rented package . This include monthly service charges for phone lines, internet services, or rented equipment like modems and routers for the sixth bill in the past six months"
-BILL_USAGE_CHRGS_M1,Total amount of usage charges for the first bill in the past six months
-BILL_USAGE_CHRGS_M2,Total amount of usage charges for the second bill in the past six months
-BILL_USAGE_CHRGS_M3,Total amount of usage charges for the third bill in the past six months
-BILL_USAGE_CHRGS_M4,Total amount of usage charges for the fourth bill in the past six months
-BILL_USAGE_CHRGS_M5,Total amount of usage charges for the fifth bill in the past six months
-BILL_USAGE_CHRGS_M6,Total amount of usage charges for the sixth bill in the past six months
-BITSTRM_FLAG,Flag indicating the presence of a bitstream
-BRTH_DT,Represents the date of birth for an account owner
-CALCRD_IDD_CHRG_OB_MOU_M1,Calling Card IDD Out of Bundle Usage
-CALCRD_IDD_CHRG_OB_REV_M1,Calling Card IDD Out of Bundle Charges
-CALCRD_IDD_FREE_MOU_M1,Calling Card IDD Free Usage
-CALCRD_STD_CHRG_OB_MOU_M1,Calling Card Local Out of Bundle Usage
-CALCRD_STD_CHRG_OB_REV_M1,Calling Card Local Out of Bundle Charges
-CALCRD_STD_FREE_MOU_M1,Calling Card Local Free Usage
-CC_CARD_FLAG,Credit Card Flag for recharge
-CC_SCND_CRC_CNT_M1,Indicates the second most ued reason for contacting the customer care
-CC_SCND_CRC_CNT_M2,Indicates the second most ued reason for contacting the customer care
-CC_SCND_CRC_CNT_M3,Indicates the second most ued reason for contacting the customer care
-CC_SCND_CRC1_M1,Indicates the second most ued reason for contacting the customer care
-CC_SCND_CRC1_M2,Indicates the second most ued reason for contacting the customer care
-CC_SCND_CRC1_M3,Indicates the second most ued reason for contacting the customer care
-CC_SCND_CRC2_M1,Indicates the second most ued reason for contacting the customer care
-CC_SCND_CRC2_M2,Indicates the second most ued reason for contacting the customer care
-CC_SCND_CRC2_M3,Second level customer churn rate for the third month
-CC_SCND_CRC3_M1,Second level customer churn rate for the first month
-CC_SCND_CRC3_M2,Second level customer churn rate for the second month
-CC_SCND_CRC3_M3,Second level customer churn rate for the third month
-CC_SCND_CRC4_M1,Second level customer churn rate for the first month
-CC_SCND_CRC4_M2,Second level customer churn rate for the second month
-CC_SCND_CRC4_M3,Second level customer churn rate for the third month
-CC_THRD_CRC_CNT_M1,Third level customer churn count for the first month
-CC_THRD_CRC_CNT_M2,Third level customer churn count for the second month
-CC_THRD_CRC_CNT_M3,Third level customer churn count for the third month
-CC_THRD_CRC1_M1,Third level customer churn rate 1 for the first month
-CC_THRD_CRC1_M2,Third level customer churn rate 1 for the second month
-CC_THRD_CRC1_M3,Third level customer churn rate 1 for the third month
-CC_THRD_CRC2_M1,Third level customer churn rate 2 for the first month
-CC_THRD_CRC2_M2,Third level customer churn rate 2 for the second month
-CC_THRD_CRC2_M3,Third level customer churn rate 2 for the third month
-CC_THRD_CRC3_M1,Third level customer churn rate 3 for the first month
-CC_THRD_CRC3_M2,Third level customer churn rate 3 for the second month
-CC_THRD_CRC3_M3,Third level customer churn rate 3 for the third month
-CC_THRD_CRC4_M1,Third level customer churn rate 4 for the first month
-CC_THRD_CRC4_M2,Top contact reasons monthly
-CC_THRD_CRC4_M3,Top contact reasons monthly
-CC_TOP_CRC_CNT_M1,Indicates the reason for contacting the customer care
-CC_TOP_CRC_CNT_M2,Indicates the reason for contacting the customer care
-CC_TOP_CRC_CNT_M3,Indicates the reason for contacting the customer care
-CC_TOP_CRC1_M1,Indicates the reason for contacting the customer care
-CC_TOP_CRC1_M2,Indicates the reason for contacting the customer care
-CC_TOP_CRC1_M3,Indicates the reason for contacting the customer care
-CC_TOP_CRC2_M1,Indicates the reason for contacting the customer care
-CC_TOP_CRC2_M2,Indicates the reason for contacting the customer care
-CC_TOP_CRC2_M3,Indicates the reason for contacting the customer care
-CC_TOP_CRC3_M1,Indicates the reason for contacting the customer care
-CC_TOP_CRC3_M2,Top contact reasons monthly
-CC_TOP_CRC3_M3,Top contact reasons monthly
-CC_TOP_CRC4_M1,Top contact reasons monthly
-CC_TOP_CRC4_M2,Top contact reasons monthly
-CC_TOP_CRC4_M3,Top contact reasons monthly
-CDR_DT,Data Snapshot Date
-CDR_DT_ID,"Calendar date expressed in the standard format of the insurance company.
- e.g. 21/05/2004"
-CELL_ID_HM,Home location is calculated based on usage occurring in the time slot from 8 PM till 7 AM
-CELL_ID_MAX,Takes all call data records and gets the most used cell id by the mobile user
-CELL_ID_WRK,Work location is calculated based on usage occurring in the time slot from 8 AM till 7 PM
-CESSATION_DT,The date when the account was deactivated on the CRM system
-CF_FLEXI_NO_ICR_BL_ALWNC_MIN,"Free call allowances balance for local, IDD and flexi"
-CF_FLEXI_NO_ICR_BL_RMNG_CF_MIN,"Free call allowances balance for local, IDD and flexi"
-CF_FLEXI_NO_ICR_NOBL_ALWNC_MIN,"Free call allowances balance for local, IDD and flexi"
-CF_FLEXI_NO_ICR_NOBL_RMNG_CF_MIN,"Free call allowances balance for local, IDD and flexi"
-CF_FLEXI_NO_ICR_PRSTG_ALWNC_MIN,"Free call allowances balance for local, IDD and flexi"
-CF_FLEXI_NO_ICR_PRSTG_RMNG_MIN,"Free call allowances balance for local, IDD and flexi"
-CF_IDD_BL_ALWNC_MIN,"Free call allowances balance for local, IDD and flexi"
-CF_IDD_BL_RMNG_CF_MIN,"Free call allowances balance for local, IDD and flexi"
-CF_IDD_NOBL_ALWNC_MIN,"Free call allowances balance for local, IDD and flexi"
-CF_IDD_NOBL_RMNG_CF_MIN,"Free call allowances balance for local, IDD and flexi"
-CF_IDD_PRSTG_ALWNC_MIN,"Free call allowances balance for local, IDD and flexi"
-CF_IDD_PRSTG_RMNG_CF_MIN,"Free call allowances balance for local, IDD and flexi"
-CF_STD_ALWNC_MIN,"Free call allowances balance for local, IDD and flexi"
-CF_STD_RMNG_CF_MIN,"Free call allowances balance for local, IDD and flexi"
-CMM_INQRY_CNT_M3,CIM Inquiry count
-CMM_INQRY_LST_DT,Indicates the date of last inquiry raised
-CNTRCT_EXP_DT,Contract Expriy Date for Rate Plans
-CPLN_CNT_BILLING_M1,"Compaint Counts including overall, technical, billing and resolved"
-CPLN_CNT_M1,"Compaint Counts including overall, technical, billing and resolved"
-CPLN_CNT_M3,"Compaint Counts including overall, technical, billing and resolved"
-CPLN_CNT_TECHNICAL_M1,"Compaint Counts including overall, technical, billing and resolved"
-CPLN_CNT_WK1,"Compaint Counts including overall, technical, billing and resolved"
-CPLN_CNT_WK2,"Compaint Counts including overall, technical, billing and resolved"
-CPLN_CNT_WK3,"Compaint Counts including overall, technical, billing and resolved"
-CPLN_CNT_WK4,"Compaint Counts including overall, technical, billing and resolved"
-CPLN_LST_DT,Indicates the date of last complaint date raised
-CPLN_RSLV_CNT_M3,"Compaint Counts including overall, technical, billing and resolved"
-CREDIT_TRANSFER_INC_AMNT_M1,Credit transfer incoming count and amount
-CREDIT_TRANSFER_INC_AMNT_WK1,Credit transfer incoming count and amount
-CREDIT_TRANSFER_INC_AMNT_WK2,Credit transfer incoming count and amount
-CREDIT_TRANSFER_INC_AMNT_WK3,Credit transfer incoming count and amount
-CREDIT_TRANSFER_INC_AMNT_WK4,Credit transfer incoming count and amount
-CREDIT_TRANSFER_INC_CNT_M1,Credit transfer incoming count and amount
-CREDIT_TRANSFER_INC_CNT_WK1,Credit transfer incoming count and amount
-CREDIT_TRANSFER_INC_CNT_WK2,Credit transfer incoming count and amount
-CREDIT_TRANSFER_INC_CNT_WK3,Credit transfer incoming count and amount
-CREDIT_TRANSFER_INC_CNT_WK4,Credit transfer incoming count and amount
-CREDIT_TRANSFER_OUT_AMNT_M1,Credit transfer outgoing count and amount
-CREDIT_TRANSFER_OUT_AMNT_WK1,Credit transfer outgoing count and amount
-CREDIT_TRANSFER_OUT_AMNT_WK2,Credit transfer outgoing count and amount
-CREDIT_TRANSFER_OUT_AMNT_WK3,Credit transfer outgoing count and amount
-CREDIT_TRANSFER_OUT_AMNT_WK4,Credit transfer outgoing count and amount
-CREDIT_TRANSFER_OUT_CNT_M1,Credit transfer outgoing count and amount
-CREDIT_TRANSFER_OUT_CNT_WK1,Credit transfer outgoing count and amount
-CREDIT_TRANSFER_OUT_CNT_WK2,Credit transfer outgoing count and amount
-CREDIT_TRANSFER_OUT_CNT_WK3,Credit transfer outgoing count and amount
-CREDIT_TRANSFER_OUT_CNT_WK4,Credit transfer outgoing count and amount
-CSD_MON_IDD_ALLOWANCE_MINS,Ceased monthly IDD allowances minutes
-CSD_MON_IDD_MINS_DT,Ceased monthly IDD allowances end date
-CSD_MON_IDD_MINS_MRC,Ceased monthly IDD allowances charge
-CSD_MON_LOCAL_DATA_ALLOWANCE_MB,Ceased monthly local allowances data
-CSD_MON_LOCAL_DATA_DT,Ceased monthly local allowances data end date
-CSD_MON_LOCAL_DATA_MRC,Ceased monthly local allowances data charge
-CSD_MON_NAT_MINS_DT,Ceased monthly national allowances end date
-CSD_MON_NAT_MINS_MRC,Ceased monthly national allowances charge
-CSD_MON_NATIONAL_ALLOWANCE_MINS,Ceased monthly national allowances minutes
-CST_BAD_DEBT_AMT,Customer bad debt amount
-CST_CAT_FLG,Customer bad debt amount
-CST_CNGLMRT_INDSTRY_FLG,Coglomerate information for the customer
-CST_CORP_SEG,"Represents the sub-segment of corporate (ES) customers according to the CRM system (e.g. Finance & Banks, Media, Global Services)"
-CST_ID,Represents the Id of the party (customer) tagged in CBCM system. There can be multiple accounts under a party (customer). A customer is a party type that subscribes to or was subscribed to any service offered by Etisalat or its business units.
-CST_INDSTRY_VTCL,"Represents the customer industry classification area (e.g. Agricultural Services, Crude Petroleum & Natural Gas, Metal Mining, Construction)"
-CST_PFT_ARPU_BAND,"Service revenue excluding fixed line revenue, fixed advertising revenue, revenue related to business managed services and revenue from certain tower sharing arrangements divided by average customers."
-CST_PFT_ARPU_SEG,"Service revenue excluding fixed line revenue, fixed advertising revenue, revenue related to business managed services and revenue from certain tower sharing arrangements divided by average customers."
-CST_SEG_TP,"Represents the customer segmentation according to the CRM system (Consumer, SMB, Corporate)"
-CST_SMB_SEG,"Represents the sub-segment for SMB customers according to the CRM system (e.g. Alternate Managed, Managed, Managed Indirect)"
-CST_VAL_SEG,"Represents the customer value segmentation according to the CRM system (e.g. Titanium, Platinum, White, Golden, Silver, Diamond)"
-CST_VO_IDD_2ND_CNTRY,Customer top called country
-CST_VO_IDD_2ND_CNTRY_CNT,Customer top called country call count
-CST_VO_IDD_2ND_CNTRY_MOU,Customer top called country call usage
-CST_VO_IDD_2ND_CNTRY_REV,Customer top called country call revenue
-CST_VO_IDD_3RD_CNTRY,Customer top called country
-CST_VO_IDD_3RD_CNTRY_CNT,Customer top called country call count
-CST_VO_IDD_3RD_CNTRY_MOU,Customer top called country call usage
-CST_VO_IDD_3RD_CNTRY_REV,Customer top called country call revenue
-CST_VO_IDD_TOP_CNTRY,Customer top called country
-CST_VO_IDD_TOP_CNTRY_CNT,Customer top called country call count
-CST_VO_IDD_TOP_CNTRY_MOU,Customer top called country call usage
-CST_VO_IDD_TOP_CNTRY_REV,Customer top called country call revenue
-CST_VO_IDD_TOT_REV,Customer top called country call revenue
-CURRENT_HANDSET_MAKE,"A field that indicates the handset make of the latest handset used in the 90 days preceeding the snapshot date (e.g. Samsung, Apple, etc..)"
-CURRENT_HANDSET_MODEL,"A field that indicates the handset make of the latest handset used in the 90 days preceeding the snapshot date (e.g. Samsung, Apple, etc..)"
-CURRENT_TAC,The Type Allocation Code (TAC) is the initial eight-digit portion of the 15-digit IMEI code used to uniquely identify wireless devices.
-CUSTMER_BSN_SEG,"It is a new segment introduced by the business. 
-Domain Values: 
-- Managed SMB
-- Unmanaged SMB
-- ES -Private
-- ES -Government"
-DATA_2G_MB_M1,Data Volume Overall By Technology
-DATA_2G_MB_M1_GS,Data Volume Overall By Technology
-DATA_2G_MB_M1_WS,Data Volume Overall By Technology
-DATA_3G_MB_M1,Data Volume Overall By Technology
-DATA_3G_MB_M1_GS,Data Volume Overall By Technology
-DATA_3G_MB_M1_WS,Data Volume Overall By Technology
-DATA_5G_MB_M1,Data Volume Overall By Technology
-DATA_5G_MB_M1_GS,Data Volume Overall By Technology
-DATA_5G_MB_M1_WS,Data Volume Overall By Technology
-DATA_ADSL_VOL_M1,Indicates Total Volume of Total Megabytes Volume events within a given month.
-DATA_ALWNC_POST,Indicates maximum allowed data under current subscritption
-DATA_FEMTO_MB_M1,Data Volume Overall By Technology
-DATA_FEMTO_MB_M1_GS,Data Volume Overall By Technology
-DATA_FEMTO_MB_M1_WS,Data Volume Overall By Technology
-DATA_FLTE_MB_M1,Data Volume Overall By Technology
-DATA_FLTE_MB_M1_GS,Data Volume Overall By Technology
-DATA_FLTE_MB_M1_WS,Data Volume Overall By Technology
-DATA_LTE_MB_M1,Data Volume Overall By Technology
-DATA_LTE_MB_M1_GS,Data Volume Overall By Technology
-DATA_LTE_MB_M1_WS,Data Volume Overall By Technology
-DATA_MOU_CHRG_M1,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_CHRG_M3,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_CHRG_M6,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_CHRG_WK1,"Indicates Total Volume of  Data events within a given month.
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-W"
-DATA_MOU_CHRG_WK2,"Indicates Total Volume of  Data events within a given month.
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-W"
-DATA_MOU_CHRG_WK3,"Indicates Total Volume of  Data events within a given month.
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-W"
-DATA_MOU_CHRG_WK4,"Indicates Total Volume of  Data events within a given month.
-WK1: From 1st till 7th day of the snapshot month
-WK2: From 8th till 14th day of the snapshot month
-WK3: From 15th till 21st day of the snapshot month
-WK4: From 22nd till end of the snapshot month
-WKDAY_M1: All week days (Sun - Thu) of the snapshot month
-W"
-DATA_MOU_FREE_M1,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_FREE_M3,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_FREE_M6,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_FREE_WK1,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_FREE_WK2,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_FREE_WK3,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_FREE_WK4,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_IB_M1,Data in bundle volume
-DATA_MOU_IB_M3,Data in bundle volume
-DATA_MOU_IB_M6,Data in bundle volume
-DATA_MOU_IB_WK1,Data in bundle volume
-DATA_MOU_IB_WK2,Data in bundle volume
-DATA_MOU_IB_WK3,Data in bundle volume
-DATA_MOU_IB_WK4,Data in bundle volume
-DATA_MOU_M1,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_M3,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_M6,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_NAT_CHRG_M1,Data National Charged Volume
-DATA_MOU_NAT_FREE_M1,Data National Free Volume
-DATA_MOU_NAT_M1,Data National Overall Volume
-DATA_MOU_ROAM_CHRG_M1,Data Roaming Usage Charge
-DATA_MOU_ROAM_FREE_M1,Data Roaming Usage Free
-DATA_MOU_ROAM_M1,Data Roaming Usage
-DATA_MOU_ROAM_M3,Data Roaming Usage
-DATA_MOU_ROAM_M6,Data Roaming Usage
-DATA_MOU_ROAM_WK1,Data Roaming Usage
-DATA_MOU_ROAM_WK2,Data Roaming Usage
-DATA_MOU_ROAM_WK3,Data Roaming Usage
-DATA_MOU_ROAM_WK4,Data Roaming Usage
-DATA_MOU_ROAM_WKDAY_M1,Data Roaming Usage Weekdays
-DATA_MOU_ROAM_WKEND_M1,Data Roaming Usage Weekends
-DATA_MOU_WK1,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_WK2,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_WK3,Indicates Total Volume of  Data events within a given month.
-DATA_MOU_WK4,Indicates Total Volume of  Data events within a given month.
-DATA_REV_M1,Indicates Total Revenue of  Data events within a given month.
-DATA_REV_M3,Indicates Total Revenue of  Data events within a given month.
-DATA_REV_M6,Indicates Total Revenue of  Data events within a given month.
-DATA_REV_NAT_M1,Data Revenue National
-DATA_REV_ROAM_M1,Data Revenue Roaming
-DATA_REV_ROAM_M3,Data Revenue Roaming
-DATA_REV_ROAM_M6,Data Revenue Roaming
-DATA_REV_ROAM_WK1,Data Revenue Roaming
-DATA_REV_ROAM_WK2,Data Revenue Roaming
-DATA_REV_ROAM_WK3,Data Revenue Roaming
-DATA_REV_ROAM_WK4,Data Revenue Roaming
-DATA_REV_VAT_M1,Data Revenue VAT
-DATA_REV_WK1,Indicates Total Revenue of  Data events within a given month.
-DATA_REV_WK2,Indicates Total Revenue of  Data events within a given month.
-DATA_REV_WK3,Indicates Total Revenue of  Data events within a given month.
-DATA_REV_WK4,Indicates Total Revenue of  Data events within a given month.
-DATA_REV_WKDAY_M1,Indicates Total Revenue of  Data events within a given month.
-DATA_REV_WKEND_M1,Indicates Total Revenue of  Data events within a given month.
-DATA_SESSN_CNT_M1,Indicates Number of Occurences of  Data events within a given month.
-DATA_UNKNOWN_MB_M1,Data Usage Uknown Technology
-DATA_UNKNOWN_MB_M1_GS,Data Usage Uknown Technology Prepaid
-DATA_UNKNOWN_MB_M1_WS,Data Usage Uknown Technology Postpaid
-DATA_UPLD_DUR_M1,Data Upload Volume
-DATA_WEEEND_VOL_M1,Indicates Total Volume of  Data events within a given month.
-DATA_WEEKDAY_VOL_M1,Indicates Total Volume of  Data events within a given month.
-DEVICE_CONTRACT_DURATION,Device Contract Duration
-DEVICE_CONTRACT_EXPIRY_DATE,Device Contract Expiry Date
-DEVICE_CONTRACT_F,Device Contract Flag
-DEVICE_CONTRACT_START_DATE,Device Contract Start Date
-DGTL_CNL_PYMT_AMT_M1,Digital Channels Payment Amount
-DGTL_CNL_RCH_AMT_M1,Digital Channels Recharge Amount
-DIGIT_APP_ETSLT_CNT,Indicates customer has logged in once to etisalat application
-DIGIT_APP_ETSLT_FLG,Indicates customer has logged in once to etisalat application
-DIGIT_APP_SMLS_CNT,Indicates total count of login into Smiles application of etisalat
-DIGIT_APP_SMLS_FLG,Indicates customer has logged in once to smiles application
-DLY_IDD_ALLOWANCE_MINS,Daily IDD Allowance Minutes
-DLY_IDD_MINS_OTC,Daily IDD Allowance One Time Charge
-DLY_LOCAL_DATA_ALLOWANCE_MB,Daily Local Data Allowance MB
-DLY_LOCAL_DATA_OTC,Daily Local Data One Time Charge
-DLY_NATIONAL_ALLOWANCE_MINS,Daily National Allowance Minutes
-DLY_NATIONAL_MINS_OTC,Daily National One Time Charge
-DOC_TP,Document Type in EDMS
-DOD_FLG,Deal of the day flag
-DOD_INQUIRY_FLG,Deal of the day Inquiry flag
-DOD_OPTIN_FLG,Deal of the day optin flag
-DPI_FACEBOOK_DRTN,Total Facebook Duration
-DPI_FACEBOOK_SESSN,Number of Facebook Sessions.
-DPI_INSTAGRAM_DRTN,Total Instagram Duration
-DPI_INSTAGRAM_SESSN,Number of Instagram Sessions.
-DPI_SNAPCHAT_DRTN,Total Snapchat Duration
-DPI_SNAPCHAT_SESSN,Number of Snapchat Sessions.
-DPI_TOP_APP_1,Top mobile app used.
-DPI_TOP_APP_1_DRTN,Top mobile app used duration.
-DPI_TOP_APP_1_SESSN,Top mobile app used duration.
-DPI_TOP_APP_2,Top mobile app used.
-DPI_TOP_APP_2_DRTN,Top mobile app used duration.
-DPI_TOP_APP_2_SESSN,Top mobile app used duration.
-DPI_TOP_APP_3,Top mobile app used.
-DPI_TOP_APP_3_DRTN,Top mobile app used duration.
-DPI_TOP_APP_3_SESSN,Top mobile app used duration.
-DPI_TOP_APP_4,Top mobile app used.
-DPI_TOP_APP_4_DRTN,Top mobile app used duration.
-DPI_TOP_APP_4_SESSN,Top mobile app used duration.
-DPI_TOP_APP_5,Top mobile app used.
-DPI_TOP_APP_5_DRTN,Top mobile app used duration.
-DPI_TOP_APP_5_SESSN,Top mobile app used duration.
-DPI_TWITTER_DRTN,Total Twitter Duration
-DPI_TWITTER_SESSN,Number of Twitter Sessions.
-DPI_WHATSAPP_DRTN,Total WhatsApp Duration
-DPI_WHATSAPP_SESSN,Number of WhatsApp Sessions.
-DU_SL_FLAG,Du Call Select Flag Prepaid Calling Card
-DU_SL_MOB_REV_M1,Du Call select Mobile Voice Revenue
-DU_SL_VO_FIX_MOU_M1,Du Call select Fixed Voice Usage
-DU_SL_VO_FIX_REV_M1,Du Call select Fixed Voice Revenue
-DU_SL_VO_IDD_MOU_M1,Du Call select IDD Voice Usage
-DU_SL_VO_IDD_REV_M1,Du Call select IDD Voice Revenue
-DU_SL_VO_MOB_MOU_M1,Du Call select Mobile Voice Usage
-DVC_RNTL_M1,Monthly Device Rental for all devices purchased
-DXB_AUH_COMM,Indicates the home contact region and work contact region
-DXB_SHA_COMM,Indicates the home contact region and work contact region
-EP_AVG_BAL_M1,Average monthly balance
-EP_DATA_MMS_CNT_M1,Easy Prepaid Data MMS Count
-EP_DATA_MMS_REV_M1,Easy Prepaid Data MMS Revenue
-EP_DATA_MMS_ROAM_MOU_M1,Easy Prepaid MMS Roam Usage
-EP_DATA_MMS_ROAM_REV_M1,Easy Prepaid MMS Roam Revenue
-EP_DATA_MMS_VOL_MB_M1,Easy Prepaid MMS Data Volume
-EP_DATA_VOL_MB_AVG_M1,Easy Prepaid Monthly Average Data MB
-EP_FLG,Easy Prepaid Flag
-EP_ROAM_ALL_CNT_M1,Easy Prepaid Roam Transactions
-EP_SO_OB_ACT_CNT_M1,Easy Prepaid SMS Out Bundle Count
-EP_SO_OB_ACT_REV_M1,Easy Prepaid SMS Out Bundle Revenue
-EP_SO_OB_ROAM_CNT_M1,Easy Prepaid SMS Out Bundle Roaming Count
-EP_SO_OB_ROAM_REV_M1,Easy Prepaid SMS Out Bundle Roaming Revenue
-EP_TOT_TOPUP_AMT,Indicates total amount of Recharges events for Virtual Prepaid customers within a given month.
-EP_TOT_TOPUP_CNT,Indicates number of occurences of Recharges events for Virtual Prepaid customers within a given month.
-EP_TOTAL_BALANCE,Indicates last available prepaid balance for Virtual prepaid customers within a given month.
-EP_VO_IDD_ACT_CNT_M1,Easy Prepaid Voice IDD Count
-EP_VO_IDD_ACT_MOU_M1,Easy Prepaid Voice IDD Usage
-EP_VO_IDD_AVG_MOU_M1,Easy Prepaid Monthly Average IDD Usage
-EP_VO_IDD_OB_ACT_REV_M1,Easy Prepaid Voice IDD Out Bundle Revenue
-EP_VO_IDD_OB_ROAM_MOU_M1,Easy Prepaid Voice IDD Roaming Usage
-EP_VO_IDD_OB_ROAM_REV_M1,Easy Prepaid Voice Out Bundle Revenue
-EP_VO_M2F_OB_ACT_MOU_M1,Indicates total Minutes generated by Voice Mobile to phone events for Virtual Prepaid customers within a given month.
-EP_VO_M2F_OB_ACT_REV_M1,Indicates total revenue generated by Voice Mobile to phone events for Virtual Prepaid customers within a given month.
-EP_VO_M2F_OB_ROAM_MOU_M1,Easy Prepaid Mobile2Fixed Out Bundle Roam Usage
-EP_VO_M2F_OB_ROAM_REV_M1,Easy Prepaid Voice Mobile2Fixed Out Bundle Revenue
-EP_VO_M2M_M2F_ACT_CNT_M1,Easy Prepaid Voice Mobile to Mobile/Fixed Count
-EP_VO_M2M_OB_ACT_MOU_M1,Indicates total Minutes generated by Voice Mobile to phone events for Virtual Prepaid customers within a given month.
-EP_VO_M2M_OB_ACT_REV_M1,Indicates total revenue generated by Voice Mobile to phone events for Virtual Prepaid customers within a given month.
-EP_VO_M2M_OB_ROAM_MOU_M1,Easy Prepaid Voice Mobile to Mobile Out Bundle Usage
-EP_VO_M2M_OB_ROAM_REV_M1,Easy Prepaid Voice Mobile to Mobile Out Bundle Roam Revenue
-EP_VO_ROAM_AVG_MOU_M1,Easy Prepaid Monthly Average Roaming Usage
-EP_VO_STD_AVG_MOU_M1,Easy Prepaid Monthly Average STD Usage
-EXIT_CHRG,Total of Exit Charges
-FCC_CARD_CNT_M1,Indicates the usage of five calling card by customer
-FCC_CARD_CNT_M2,Indicates the usage of five calling card by customer
-FCC_CARD_CNT_M3,Indicates the usage of five calling card by customer
-FCC_CARD_DEMN_M1,Indicates the amount of calls of five calling card by customer
-FCC_CARD_DEMN_M2,Indicates the amount of calls of five calling card by customer
-FCC_CARD_DEMN_M3,Indicates the amount of calls of five calling card by customer
-FCC_CNT_M1,Indicates the total distinct number of calling cards used
-FCC_CNT_M2,Indicates the total distinct number of calling cards used
-FCC_CNT_M3,Five calling card usage transactions
-FCC_IDD_REV_M1,Five calling card IDD revenue
-FCC_MOUS_M1,Five calling card usage
-FCC_MOUS_M2,Five calling card usage
-FCC_MOUS_M3,Five calling card usage
-FCC_SCND_DEMN_CNT_M1,Five calling card denomination count
-FCC_SCND_DEMN_CNT_M2,Five calling card denomination count
-FCC_SCND_DEMN_CNT_M3,Five calling card denomination count
-FCC_SCND_DEMN_TP_M1,Five calling card denomination type
-FCC_SCND_DEMN_TP_M2,Five calling card denomination type
-FCC_SCND_DEMN_TP_M3,Five calling card denomination type
-FCC_STD_REV_M1,Five calling card std revenue
-FCC_TOP_DEMN_CNT_M1,Indicates the count of most preferred denomation of calling card by customer
-FCC_TOP_DEMN_CNT_M2,Indicates the count of most preferred denomation of calling card by customer
-FCC_TOP_DEMN_CNT_M3,Indicates the count of most preferred denomation of calling card by customer
-FCC_TOP_DEMN_TP_M1,Indicates the most preferred denomation of calling card by customer
-FCC_TOP_DEMN_TP_M2,Indicates the most preferred denomation of calling card by customer
-FCC_TOP_DEMN_TP_M3,Indicates the most preferred denomation of calling card by customer
-FCC_USG_TOT_REV,Five calling card usage revenue
-FNP_FLAG,Whether customer has underwent fixed number porting
-GND_TP,Gender of the Customer / Party
-HSET__CHNG_CNT_M12,Handset change count
-HSET_CHNG_DT,Handset change date
-HSET_LST_CHNG_DT,Handset change date
-HSET_SCND_LST_CHNG_DT,Handset change date
-HSET_THRD_LST_CHNG_DT,Handset change date
-HSET_TNR,Handset Tenure
-IMEI_USR_CNT,"Tokenized - A unique identificator of the mobile handset, IMEI is registered on network usage transactions (cdr files) and can be used to identify the handset manufacturer, model, handset features, etc."
-INBND_CTC_FLG,If customer contacted etisalat
-INC_IDD_MIN_USG,Incoming IDD Usage
-INC_NAT_MIN_USG,Incoming National Usage
-INFLUENCE_CHRG,Influence charge for package
-IS_UNDR_CNTRCT,Contract Expriy Date for Rate Plans
-LAST_AVY_DT,"days_since_any_activity - days since any activity (voice(ic/og), data, mms)"
-LAST_RCHRG_DATE,The last recharge date defines the date of last top up for a mobile prepaid account. All types of top-ups are considered.
-LAST_TOPUP_DT,The last recharge date defines the date of last top up for a mobile prepaid account. All types of top-ups are considered.
-LATEST_DIGI_APP_TXN_DT,Recharge campaign latest digital transaction date
-LATEST_DIGITAL_RECHARGE_DT,Recharge campaign latest digital topup date
-LATEST_NON_DIGITAL_RECHARGE_DT,Recharge campaign latest non digital transaction date
-LATEST_SMX_TXN_DT,Recharge campaign latest SMS transaction date
-LST_NBA_INTRCN_DT,Last Next Best Action Interaction
-LST_VCHR_BURNT_DT,Last Voucher Burnt Date
-LST_VCHR_CGY_NM,Last Voucher Category Name
-LST_VCHR_CRT_DT,Last Voucher Purchase Date
-LYLTY_FLG,Indicates whether the user is loyalty member or not
-LYLTY_PNTS_ACCRUL,Indicates sum of points under accrual transaction
-LYLTY_PNTS_REDMPT,Total Loyalty Point Redemption
-LYLTY_PNTS_REDMPT_ET,Total Loyalty Point Redemption
-LYLTY_PNTS_REDMPT_PRTNR,Total Loyalty Point Redemption
-LYLTY_TRX_ACCRUL,Indicates number of events under accrual transaction
-LYLTY_TRX_REDMPT,Loyalty Redemption Transaction Count
-LYLTY_TRX_REDMPT_ET,Loyalty Redemption Transaction Count
-LYLTY_TRX_REDMPT_PRTNR,Loyalty Redemption Transaction Count
-MIN_ALWNC_POST,Indicates maximum allowed minutes under current subscritption
-MISD_PMTS_LST_6_M,Indicates total missed payments for the period
-NAT_TP,"Represents the nationality of the customer/employee (e.g. Emirati, Turkish, Romanian)"
-NO_OF_MNTLY_PKGS,Number of monthly packages.
-NO_OF_PKGS,Number of packages.
-ONETIME_CHRG,Total onetime charges
-PARTY_TENURE,The length of time the customer has been held as a subscriber
-PD_CODE,"Represents code of the product as subscribed by the consumer. (e.g. 1P, 2P, 3P, GS, VO, VN, CS, OM, PA, MA)"
-PD_GRP,"Represents code of the product group as subscribed by the consumer. A product group is a collection of products that have a similar features and characteristics. (e.g. MKTSMGS1108, BB, PKI, BST, MP, BL, ICT, FC)"
-PD_GRP_ID,"Represents Id of the product group as subscribed by the consumer. A product group is a collection of products that have a similar features and characteristics. (e.g. 193, 194, 195, 196, 197, 198)"
-PD_ID,"A DWH Id used to link with product dimension which defines the account product. (e.g. GS(postpaid), WS(Prepaid), 3P(elife Triple Play), etc.)"
-PD_LV_1,Product Model Level 1 Hierarchy
-PD_LV_2,Product Model Level 2 Hierarchy
-PD_LV_3,Product Model Level 3 Hierarchy
-PD_LV_4,Product Model Level 4 Hierarchy
-PD_MDIM_ID,An identifier dimension entity that groups attributes which categorize the product entity
-PD_NM,"Product describes the services, merchandise or facilities that can be offered, sold or purchased by the Service Provider, its competitors and other Involved Parties during the normal course of its business. Product also includes non-telecom goods and services that are of interest to the Service Provider (e.g. Dual Play Products, GSM Post Paid, Voice / DEL Normal, Value Added Services for PSTN, eCompany Access Services, OM, eLife TV)"
-PMNT_AMT_M1,Overall payment done by the customer
-PMNT_CHNL_CNT_M1,Indicates number of channels used to make payments by customer
-PMNT_CNT_M1,Indicates number of payments made by customer
-PMNT_DATE_M1,Represents the date of payment made by account
-PMNT_TOP_CHNL_M1,Indicates the most preferred channel used to make payments by customer
-PORT_IN_DT,A field that indicates the account port in date
-PORT_IN_FLG,Flag indicating if the account ported in from other operators
-PORT_OUT_FLG,Flag indicating if the account ported out to other operators
-PREF_LNG,Preferred Language of the subscriber e.g. Arabic or English
-PRIM_RATE_PLN_CODE,"Primary Rate Plan(price plan)is a combination of Charge Types and Reductions that together completely define the commercial aspects of a Service. A Rate Plan contains different rates to cater to different segments of people. A rate plan that defines all the rules and parameters that enable the Rating Engine to determine a price for a single event; e.g. phone call, pay-per-view event, or home shopping selection. Represents Code associated with Product Hierarchy PackageRate Plan Code(e.g. RP576850,RP563552)
+VO_MOB_CNT_CHRG_WK2,"Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
 "
-PRIM_RATE_PLN_DSC,"Primary rate plan(price plan)is a combination of Charge Types and Reductions that together completely define the commercial aspects of a Service.A primary rate plan contains different rates to cater to different segments of people. A rate plan that defines all the rules and parameters that enable the Rating Engine to determine a price for a single event; e.g. phone call, pay-per-view event, or home shopping selection. Represents Description associated with Product Hierarchy PackageRate Plan Descriptions "
-PRIM_RATE_PLN_EFF_DT,The date when the primary rate plan (price plan) was activated on the CRM system
-PRIM_RATE_PLN_END_DT,The date when the primary rate plan (price plan) was deactivated on the CRM system
-PRIM_RATE_PLN_ID,"Primary Rate Plan (price plan) is a combination of Charge Types and Reductions that together completely define the commercial aspects of a Service. A Rate Plan contains different rates to cater to different segments of people. A rate plan that defines all the rules and parameters that enable the Rating Engine to determine a price for a single event; for example, a telephone call, pay-per-view event, or home shopping selection.
-Represents Id associated with Product Rate Plan (e.g. 111033, 111034)"
-PRV_PD_CD,The previous value represents the previous package of the subscriber. The attribute will be populated in case of migration
-PYMT_DGTL_CHQ_PCPMS_AMT,Payment made by digital device/channel
-PYMT_DGTL_CHQ_SLF_VNDNG_MCHN_AMT,Payment made by digital device/channel
-PYMT_DGTL_CHQ_TOTAL_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_BNK_ATM_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_BNK_BRN_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_BNK_IVR_EZEEPAY_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_BNK_WWW_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_ESHOP_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_ETS_BUS_ONLN_CRDT_CRD_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_ETS_BUS_ONLN_ONLN_BNK_TRNS_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_IVR101_PRTL_PYMT_MD_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_IVR125_ONLN_CNLS_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_IVR8005800_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_IVR8009111_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_LYLT_PRTL_PYMT_MD_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_MAX_BOX_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_MBL_APP_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_NW_PYMT_MD_FOR_AUTOPAY_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_PCPMS_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_PYMT_MD_FOR_B2C_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_QCK_PAY_FOR_BUS_CRDT_CRD_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_QCK_PAY_FOR_BUS_ONLN_BNK_TRNS_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_SAS_PYMT_MD_AMT,Payment made by digital device/channel
-PYMT_DGTL_CRD_SLF_VNDNG_MCHN_AMT,Payment made by digital device/channel
-PYMT_DGTL_CSH_BNK_CNLS_AMT,Payment made by digital device/channel
-PYMT_DGTL_CSH_PCPMS_AMT,Payment made by digital device/channel
-PYMT_DGTL_CSH_SLF_VNDNG_MCHN_AMT,Payment made by digital device/channel
-PYMT_DGTL_CSH_TOTAL_AMT,Payment made by digital device/channel
-PYMT_DGTL_LYLT_MBL_APP_AMT,Payment made by digital device/channel
-PYMT_DGTL_MIX_MBL_APP_AMT,Payment made by digital device/channel
-PYMT_DGTL_UNK_MBL_APP_AMT,Payment made by digital device/channel
-PYMT_DGTL_UNK_PYMT_MD_FOR_B2C_AMT,Payment made by digital device/channel
-PYMT_DGTL_UNK_SAS_PYMT_MD_AMT,Payment made by digital device/channel
-PYMT_DGTL_WLT_MWALLET_PYMT_MD_AMT,Payment made by digital device/channel
-PYMT_NON_DGTL_BNKADV_CNTRS_OF_ETS_OFFC_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_BNKADV_MLT_CSH_PYMT_MD_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_BNKADV_TOTAL_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_CHQ_CNTR_FOR_NTS_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_CHQ_CNTRS_OF_ETS_OFFC_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_CHQ_MLT_CSH_PYMT_MD_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_CHQ_TOTAL_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_CRD_CNTR_FOR_NTS_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_CRD_CNTRS_OF_ETS_OFFC_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_CRD_MLT_CSH_PYMT_MD_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_CRD_TOTAL_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_CSH_CNTR_FOR_NTS_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_CSH_CNTRS_OF_ETS_OFFC_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_CSH_MLT_CSH_PYMT_MD_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_CSH_TOTAL_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_UNK_CNTR_FOR_NTS_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_NON_DGTL_WLT_CNTR_FOR_NTS_AMT,"Payment made through non-digital mode like cheque, cash, bank advise etc."
-PYMT_UNK_UNK_UNK_AMT,Payment made by digital device for Unknown Channels
-RCHRG_AMT_M1,Represents value of prepaid recharges (AED) during the reported period
-RCHRG_BANK_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_BANK_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_CHNL_CNT_M1,Indicates number of channels used to make recharges by customer
-RCHRG_CNT_M1,Indicates number of recharges done by customer
-RCHRG_E_VOUCHER_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_E_VOUCHER_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_EMPOST_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_EMPOST_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_EPM_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_EPM_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_EXCHANGE_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_EXCHANGE_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_MBME_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_MBME_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_MOBILE_APP_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_MOBILE_APP_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_NT_PAYMENTS_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_NT_PAYMENTS_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_OTAR_API_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_OTAR_API_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_OTAR_USSD_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_OTAR_USSD_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_SGMT,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_SMILES_APP_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_SMILES_APP_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_SSK_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_SSK_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_SUBSEGMENT,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_UBT_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_UBT_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_WEBSITE_AMT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCHRG_WEBSITE_CNT_M1,Recharge is the payment you make upfront for your Prepaid service.
-RCR_FEE,"Amount of charges that a customer has to pay after every pre-defined interval of time till the customer avails of the Service. This pre-defined interval of time can be monthly, quarterly, half-yearly, yearly, etc."
-RECURRING_CHRG,Total recurring charges
-RGON,"Represents territorial and/or administrative area name within a country according to region (e.g. Abu Dhabi, Dubai, Northern Emirates)"
-RNTL_TOT_M1,Indicates the total rental amount of the customer for the billing period
-RSRV_CRDT_DFLT,Flag that indicates if the usage is from reserve credit or normal credit
-SEG_SOCIO,"A field that holds the socio economic segment of the customer, this segment is calculated based on specific KPIs like ARPU and tenure (e.g. Blue Collar, White Collar, etc.)"
-SHA_AUH_COMM,Indicates the home contact region and work contact region
-SHA_DXB_COMM,Indicates the home contact region and work contact region
-SMARTPHONE_F,Flag indicates if the handset is a smatphone or not
-SO_CNT_CHRG_M1,Indicates number of charged occurences of SMS events for customers
-SO_CNT_CHRG_M3,Indicates number of charged occurences of SMS events for customers
-SO_CNT_CHRG_M6,Indicates number of charged occurences of SMS events for customers
-SO_CNT_CHRG_WK1,Indicates number of charged occurences of SMS events for customers
-SO_CNT_CHRG_WK2,Indicates number of charged occurences of SMS events for customers
-SO_CNT_CHRG_WK3,Indicates number of charged occurences of SMS events for customers
-SO_CNT_CHRG_WK4,Indicates number of charged occurences of SMS events for customers
-SO_CNT_FREE_M1,Indicates number of free occurences of SMS events for customers
-SO_CNT_FREE_M3,Indicates number of free occurences of SMS events for customers
-SO_CNT_FREE_M6,Indicates number of free occurences of SMS events for customers
-SO_CNT_FREE_WK1,Indicates number of free occurences of SMS events for customers
-SO_CNT_FREE_WK2,Indicates number of free occurences of SMS events for customers
-SO_CNT_FREE_WK3,Indicates number of free occurences of SMS events for customers
-SO_CNT_FREE_WK4,Indicates number of free occurences of SMS events for customers
-SO_CNT_IB_M1,In-Bundle SMS Count
-SO_CNT_IB_M3,In-Bundle SMS Count
-SO_CNT_IB_M6,In-Bundle SMS Count
-SO_CNT_IB_WK1,In-Bundle SMS Count
-SO_CNT_IB_WK2,In-Bundle SMS Count
-SO_CNT_IB_WK3,In-Bundle SMS Count
-SO_CNT_IB_WK4,In-Bundle SMS Count
-SO_CNT_M1,Indicates number of occurences of SMS events for customers
-SO_CNT_M3,Indicates number of occurences of SMS events for customers
-SO_CNT_M6,Indicates number of occurences of SMS events for customers
-SO_CNT_OFFNT_M1,Indicates Number of Occurences of  SMS off net events within a given month.
-SO_CNT_OFFNT_M3,Indicates Number of Occurences of  SMS off net events within a given month.
-SO_CNT_OFFNT_M6,Indicates Number of Occurences of  SMS off net events within a given month.
-SO_CNT_OFFNT_WK1,Indicates Number of Occurences of  SMS off net events within a given month.
-SO_CNT_OFFNT_WK2,Indicates Number of Occurences of  SMS off net events within a given month.
-SO_CNT_OFFNT_WK3,Indicates Number of Occurences of  SMS off net events within a given month.
-SO_CNT_OFFNT_WK4,Indicates Number of Occurences of  SMS off net events within a given month.
-SO_CNT_ONNT_M1,Indicates Number of Occurences of  SMS Onnet events within a given month.
-SO_CNT_ONNT_M3,Indicates Number of Occurences of  SMS Onnet events within a given month.
-SO_CNT_ONNT_M6,Indicates Number of Occurences of  SMS Onnet events within a given month.
-SO_CNT_ONNT_WK1,Indicates Number of Occurences of  SMS Onnet events within a given month.
-SO_CNT_ONNT_WK2,Indicates Number of Occurences of  SMS Onnet events within a given month.
-SO_CNT_ONNT_WK3,Indicates Number of Occurences of  SMS Onnet events within a given month.
-SO_CNT_ONNT_WK4,Indicates Number of Occurences of  SMS Onnet events within a given month.
-SO_CNT_WK1,Indicates Number of Occurences of SMS Local events within a given month.
-SO_CNT_WK2,Indicates Number of Occurences of SMS Local events within a given month.
-SO_CNT_WK3,Indicates Number of Occurences of SMS Local events within a given month.
-SO_CNT_WK4,Indicates Number of Occurences of SMS Local events within a given month.
-SO_CNT_WKDAY_M1,Indicates Number of Occurences of SMS Local events within a given month.
-SO_CNT_WKEND_M1,Indicates Number of Occurences of SMS Local events within a given month.
-SO_IDD_CNT_M1,Indicates Number of Occurences of SMS International events within a given month.
-SO_IDD_CNT_M3,Indicates Number of Occurences of SMS International events within a given month.
-SO_IDD_CNT_M6,Indicates Number of Occurences of SMS International events within a given month.
-SO_IDD_CNT_WK1,Indicates Number of Occurences of SMS International events within a given month.
-SO_IDD_CNT_WK2,Indicates Number of Occurences of SMS International events within a given month.
-SO_IDD_CNT_WK3,Indicates Number of Occurences of SMS International events within a given month.
-SO_IDD_CNT_WK4,Indicates Number of Occurences of SMS International events within a given month.
-SO_IDD_REV_M1,Indicates Total Revenue of SMS International events within a given month.
-SO_IDD_REV_M3,Indicates Total Revenue of SMS International events within a given month.
-SO_IDD_REV_M6,Indicates Total Revenue of SMS International events within a given month.
-SO_IDD_REV_WK1,Indicates Total Revenue of SMS International events within a given month.
-SO_IDD_REV_WK2,Indicates Total Revenue of SMS International events within a given month.
-SO_IDD_REV_WK3,Indicates Total Revenue of SMS International events within a given month.
-SO_IDD_REV_WK4,Indicates Total Revenue of SMS International events within a given month.
-SO_REV_M1,Indicates Total Revenue of SMS Local events within a given month.
-SO_REV_M3,Indicates Total Revenue of SMS Local events within a given month.
-SO_REV_M6,Indicates Total Revenue of SMS Local events within a given month.
-SO_REV_OFFNT_M1,Indicates Total Revenue of SMS Local Offnet events within a given month.
-SO_REV_OFFNT_M3,Indicates Total Revenue of SMS Local Offnet events within a given month.
-SO_REV_OFFNT_M6,Indicates Total Revenue of SMS Local Offnet events within a given month.
-SO_REV_OFFNT_WK1,Indicates Total Revenue of SMS Local Offnet events within a given month.
-SO_REV_OFFNT_WK2,Indicates Total Revenue of SMS Local Offnet events within a given month.
-SO_REV_OFFNT_WK3,Indicates Total Revenue of SMS Local Offnet events within a given month.
-SO_REV_OFFNT_WK4,Indicates Total Revenue of SMS Local Offnet events within a given month.
-SO_REV_ONNT_M1,Indicates Total Revenue of SMS Local ONnet events within a given month.
+VO_MOB_CNT_CHRG_WK3,"Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
+"
+VO_MOB_CNT_CHRG_WK4,"Indicates Number of Occurences of Charged to Mobile Voice events within a given month.
+"
+VO_MOB_CNT_FREE_M1,Indicates Number of Occurences of Free to Mobile Voice events within a given month.
+VO_MOB_CNT_FREE_M3,Indicates Number of Occurences of Free to Mobile Voice events within a given month.
+VO_MOB_CNT_FREE_M6,Indicates Number of Occurences of Free to Mobile Voice events within a given month.
+VO_MOB_CNT_FREE_WK1,"Indicates Number of Occurences of Free to Mobile Voice events within a given month.
+"
+VO_MOB_CNT_FREE_WK2,"Indicates Number of Occurences of Free to Mobile Voice events within a given month.
+"
+VO_MOB_CNT_FREE_WK3,"Indicates Number of Occurences of Free to Mobile Voice events within a given month.
+"
+VO_MOB_CNT_FREE_WK4,"Indicates Number of Occurences of Free to Mobile Voice events within a given month.
+"
+VO_MOB_CNT_IB_M1,Monthly Voice Mobile Inbound Count
+VO_MOB_CNT_IB_M3,Monthly Voice Mobile Inbound Count
+VO_MOB_CNT_IB_M6,Monthly Voice Mobile Inbound Count
+VO_MOB_CNT_IB_WK1,Weekly Voice Mobile Inbound Count
+VO_MOB_CNT_IB_WK2,Weekly Voice Mobile Inbound Count
+VO_MOB_CNT_IB_WK3,Weekly Voice Mobile Inbound Count
+VO_MOB_CNT_IB_WK4,Weekly Voice Mobile Inbound Count
+VO_MOB_CNT_M1,Indicates Number of Occurences of Total to Mobile Voice events within a given month.
+VO_MOB_CNT_M3,Indicates Number of Occurences of Total to Mobile Voice events within a given month.
+VO_MOB_CNT_M6,Indicates Number of Occurences of Total to Mobile Voice events within a given month.
+VO_MOB_CNT_OFFNT_M1,Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
+VO_MOB_CNT_OFFNT_M3,Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
+VO_MOB_CNT_OFFNT_M6,Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
+VO_MOB_CNT_OFFNT_WK1,"Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
+"
+VO_MOB_CNT_OFFNT_WK2,"Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
+"
+VO_MOB_CNT_OFFNT_WK3,"Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
+"
+VO_MOB_CNT_OFFNT_WK4,"Indicates Number of Occurences of Total to Mobile Voice Offnet events within a given month.
+"
+VO_MOB_CNT_ONNT_M1,Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
+VO_MOB_CNT_ONNT_M3,Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
+VO_MOB_CNT_ONNT_M6,Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
+VO_MOB_CNT_ONNT_WK1,"Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
+"
+VO_MOB_CNT_ONNT_WK2,"Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
+"
+VO_MOB_CNT_ONNT_WK3,"Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
+"
+VO_MOB_CNT_ONNT_WK4,"Indicates Number of Occurences of Total to Mobile Voice Onnet events within a given month.
+"
+VO_MOB_CNT_WK1,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
+"
+VO_MOB_CNT_WK2,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
+"
+VO_MOB_CNT_WK3,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
+"
+VO_MOB_CNT_WK4,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
+"
+VO_MOB_CNT_WKDAY_M1,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
+"
+VO_MOB_CNT_WKEND_M1,"Indicates Number of Occurences of Total to Mobile Voice events within a given month.
+"
+VO_MOB_MOU_CHRG_M1,Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
+VO_MOB_MOU_CHRG_M3,Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
+VO_MOB_MOU_CHRG_M6,Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
+VO_MOB_MOU_CHRG_WK1,"Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
+"
+VO_MOB_MOU_CHRG_WK2,"Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
+"
+VO_MOB_MOU_CHRG_WK3,"Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
+"
+VO_MOB_MOU_CHRG_WK4,"Indicates Rounded Minutes of Charged to Mobile Voice events within a given month.
+"
+VO_MOB_MOU_FREE_M1,Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
+VO_MOB_MOU_FREE_M3,Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
+VO_MOB_MOU_FREE_M6,Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
+VO_MOB_MOU_FREE_WK1,"Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
+"
+VO_MOB_MOU_FREE_WK2,"Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
+"
+VO_MOB_MOU_FREE_WK3,"Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
+"
+VO_MOB_MOU_FREE_WK4,"Indicates Rounded Minutes of Free to Mobile Voice events within a given month.
+"
+VO_MOB_MOU_IB_M1,Monthly Voice Mobile Inbound MOU
+VO_MOB_MOU_IB_M3,Monthly Voice Mobile Inbound MOU
+VO_MOB_MOU_IB_M6,Monthly Voice Mobile Inbound MOU
+VO_MOB_MOU_IB_WK1,Weekly Voice Mobile Inbound MOU
+VO_MOB_MOU_IB_WK2,Weekly Voice Mobile Inbound MOU
+VO_MOB_MOU_IB_WK3,Weekly Voice Mobile Inbound MOU
+VO_MOB_MOU_IB_WK4,Weekly Voice Mobile Inbound MOU
+VO_MOB_MOU_M1,Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
+VO_MOB_MOU_M3,Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
+VO_MOB_MOU_M6,Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
+VO_MOB_MOU_OFFNT_M1,Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
+VO_MOB_MOU_OFFNT_M3,Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
+VO_MOB_MOU_OFFNT_M6,Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
+VO_MOB_MOU_OFFNT_WK1,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
+"
+VO_MOB_MOU_OFFNT_WK2,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
+"
+VO_MOB_MOU_OFFNT_WK3,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
+"
+VO_MOB_MOU_OFFNT_WK4,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
+"
+VO_MOB_MOU_OFFNT_WKDAY_M1,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
+"
+VO_MOB_MOU_OFFNT_WKEND_M1,"Indicates Rounded Minutes of Total to Mobile Offnet events within a given month.
+"
+VO_MOB_MOU_ONNT_M1,Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
+VO_MOB_MOU_ONNT_M3,Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
+VO_MOB_MOU_ONNT_M6,Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
+VO_MOB_MOU_ONNT_WK1,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
+"
+VO_MOB_MOU_ONNT_WK2,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
+"
+VO_MOB_MOU_ONNT_WK3,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
+"
+VO_MOB_MOU_ONNT_WK4,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
+"
+VO_MOB_MOU_ONNT_WKDAY_M1,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
+"
+VO_MOB_MOU_ONNT_WKEND_M1,"Indicates Rounded Minutes of Total to Mobile Onnet events within a given month.
+"
+VO_MOB_MOU_WK1,"Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
+"
+VO_MOB_MOU_WK2,"Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
+"
+VO_MOB_MOU_WK3,"Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
+"
+VO_MOB_MOU_WK4,"Indicates Rounded Minutes of Total to Mobile Voice events within a given month.
+"
+VO_MOB_REV_M1,Indicates Total Revenue of Total to Mobile Voice events within a given month.
+VO_MOB_REV_M3,Indicates Total Revenue of Total to Mobile Voice events within a given month.
+VO_MOB_REV_M6,Indicates Total Revenue of Total to Mobile Voice events within a given month.
+VO_MOB_REV_OFFNT_M1,Indicates Total Revenue of Total to Mobile Offnet events within a given month.
+VO_MOB_REV_OFFNT_M3,Indicates Total Revenue of Total to Mobile Offnet events within a given month.
+VO_MOB_REV_OFFNT_M6,Indicates Total Revenue of Total to Mobile Offnet events within a given month.
+VO_MOB_REV_OFFNT_WK1,"Indicates Total Revenue of Total to Mobile Offnet events within a given month.
+"
+VO_MOB_REV_OFFNT_WK2,"Indicates Total Revenue of Total to Mobile Offnet events within a given month.
+"
+VO_MOB_REV_OFFNT_WK3,"Indicates Total Revenue of Total to Mobile Offnet events within a given month.
+"
+VO_MOB_REV_OFFNT_WK4,"Indicates Total Revenue of Total to Mobile Offnet events within a given month.
+"
+VO_MOB_REV_ONNT_M1,Indicates Total Revenue of Total to Mobile Onnet events within a given month.
+VO_MOB_REV_ONNT_M3,Indicates Total Revenue of Total to Mobile Onnet events within a given month.
+VO_MOB_REV_ONNT_M6,Indicates Total Revenue of Total to Mobile Onnet events within a given month.
+VO_MOB_REV_ONNT_WK1,"Indicates Total Revenue of Total to Mobile Onnet events within a given month.
+"
+VO_MOB_REV_ONNT_WK2,"Indicates Total Revenue of Total to Mobile Onnet events within a given month.
+"
+VO_MOB_REV_ONNT_WK3,"Indicates Total Revenue of Total to Mobile Onnet events within a given month.
+"
+VO_MOB_REV_ONNT_WK4,"Indicates Total Revenue of Total to Mobile Onnet events within a given month.
+"
+VO_MOB_REV_WK1,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
+"
+VO_MOB_REV_WK2,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
+"
+VO_MOB_REV_WK3,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
+"
+VO_MOB_REV_WK4,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
+"
+VO_MOB_REV_WKDAY_M1,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
+"
+VO_MOB_REV_WKEND_M1,"Indicates Total Revenue of Total to Mobile Voice events within a given month.
+"
+VO_MOB_UNQ_DLD_M1,"Indicates Number of Unique Called Mobile Numbers within a given period.
+
+M1: Snapshot month
+M3: Snapshot month minus 2 till Snapshot month
+M6: Snapshot month - 5 till Snapshot month"
+VO_MOB_UNQ_DLD_M3,"Indicates Number of Unique Called Mobile Numbers within a given period.
+
+M1: Snapshot month
+M3: Snapshot month minus 2 till Snapshot month
+M6: Snapshot month - 5 till Snapshot month"
+VO_MOB_UNQ_DLD_M6,"Indicates Number of Unique Called Mobile Numbers within a given period.
+
+M1: Snapshot month
+M3: Snapshot month minus 2 till Snapshot month
+M6: Snapshot month - 5 till Snapshot month"
+VO_MOU_CHRG_M1,Indicates Rounded Minutes of Charged Local Voice events within a given month.
+VO_MOU_CHRG_M3,Indicates Rounded Minutes of Charged Local Voice events within a given month.
+VO_MOU_CHRG_M6,Indicates Rounded Minutes of Charged Local Voice events within a given month.
+VO_MOU_CHRG_WK1,"Indicates Rounded Minutes of Charged Local Voice events within a given month.
+"
+VO_MOU_CHRG_WK2,"Indicates Rounded Minutes of Charged Local Voice events within a given month.
+"
+VO_MOU_CHRG_WK3,"Indicates Rounded Minutes of Charged Local Voice events within a given month.
+"
+VO_MOU_CHRG_WK4,"Indicates Rounded Minutes of Charged Local Voice events within a given month.
+"
+VO_MOU_FREE_M1,Indicates Rounded Minutes of Free Local Voice events within a given month.
+VO_MOU_FREE_M3,Indicates Rounded Minutes of Free Local Voice events within a given month.
+VO_MOU_FREE_M6,Indicates Rounded Minutes of Free Local Voice events within a given month.
+VO_MOU_FREE_WK1,"Indicates Rounded Minutes of Free Local Voice events within a given month.
+"
+VO_MOU_FREE_WK2,"Indicates Rounded Minutes of Free Local Voice events within a given month.
+"
+VO_MOU_FREE_WK3,"Indicates Rounded Minutes of Free Local Voice events within a given month.
+"
+VO_MOU_FREE_WK4,"Indicates Rounded Minutes of Free Local Voice events within a given month.
+"
+VO_MOU_IB_M1,Monthly Voice Inbound MOU
+VO_MOU_IB_M3,Monthly Voice Inbound MOU
+VO_MOU_IB_M6,Monthly Voice Inbound MOU
+VO_MOU_IB_WK1,Weekly Voice Inbound Minutes of Usage
+VO_MOU_IB_WK2,Weekly Voice Inbound Minutes of Usage
+VO_MOU_IB_WK3,Weekly Voice Inbound Minutes of Usage
+VO_MOU_IB_WK4,Weekly Voice Inbound Minutes of Usage
+VO_MOU_M1,Indicates Rounded Minutes of Total Local Voice events within a given month.
+VO_MOU_M3,Indicates Rounded Minutes of Total Local Voice events within a given month.
+VO_MOU_M6,Indicates Rounded Minutes of Total Local Voice events within a given month.
+VO_MOU_OFFNT_CHRG_M1,Indicates Rounded Minutes of Charged Local Offnet Voice events within a given month.
+VO_MOU_OFFNT_M1,Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
+VO_MOU_OFFNT_M3,Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
+VO_MOU_OFFNT_M6,Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
+VO_MOU_OFFNT_WK1,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
+"
+VO_MOU_OFFNT_WK2,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
+"
+VO_MOU_OFFNT_WK3,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
+"
+VO_MOU_OFFNT_WK4,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
+"
+VO_MOU_OFFNT_WKDAY_M1,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
+"
+VO_MOU_OFFNT_WKEND_M1,"Indicates Rounded Minutes of Total Local Offnet Voice events within a given month.
+"
+VO_MOU_ONNT_CHRG_M1,Indicates Rounded Minutes of Charged Local Onnet Voice events within a given month.
+VO_MOU_ONNT_M1,Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
+VO_MOU_ONNT_M3,Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
+VO_MOU_ONNT_M6,Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
+VO_MOU_ONNT_WK1,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
+"
+VO_MOU_ONNT_WK2,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
+"
+VO_MOU_ONNT_WK3,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
+"
+VO_MOU_ONNT_WK4,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
+"
+VO_MOU_ONNT_WKDAY_M1,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
+"
+VO_MOU_ONNT_WKEND_M1,"Indicates Rounded Minutes of Total Local Onnet Voice events within a given month.
+"
+VO_MOU_WK1,"Indicates Rounded Minutes of Total Local Voice events within a given month.
+"
+VO_MOU_WK2,"Indicates Rounded Minutes of Total Local Voice events within a given month.
+"
+VO_MOU_WK3,"Indicates Rounded Minutes of Total Local Voice events within a given month.
+"
+VO_MOU_WK4,"Indicates Rounded Minutes of Total Local Voice events within a given month.
+"
+VO_REV_M1,Indicates Total Revenue of Total Local Voice events within a given month.
+VO_REV_M3,Indicates Total Revenue of Total Local Voice events within a given month.
+VO_REV_M6,Indicates Total Revenue of Total Local Voice events within a given month.
+VO_REV_OFFNT_M1,Indicates Total Revenue of Total Local Offnet Voice events within a given month.
+VO_REV_OFFNT_M3,Indicates Total Revenue of Total Local Offnet Voice events within a given month.
+VO_REV_OFFNT_M6,Indicates Total Revenue of Total Local Offnet Voice events within a given month.
+VO_REV_OFFNT_WK1,"Indicates Total Revenue of Total Local Offnet Voice events within a given month.
+"
+VO_REV_OFFNT_WK2,"Indicates Total Revenue of Total Local Offnet Voice events within a given month.
+"
+VO_REV_OFFNT_WK3,"Indicates Total Revenue of Total Local Offnet Voice events within a given month.
+"
+VO_REV_OFFNT_WK4,"Indicates Total Revenue of Total Local Offnet Voice events within a given month.
+"
+VO_REV_ONNT_M1,Indicates Total Revenue of Total Local Onnet Voice events within a given month.
+VO_REV_ONNT_M3,Indicates Total Revenue of Total Local Onnet Voice events within a given month.
+VO_REV_ONNT_M6,Indicates Total Revenue of Total Local Onnet Voice events within a given month.
+VO_REV_ONNT_WK1,"Indicates Total Revenue of Total Local Onnet Voice events within a given month.
+"
+VO_REV_ONNT_WK2,"Indicates Total Revenue of Total Local Onnet Voice events within a given month.
+"
+VO_REV_ONNT_WK3,"Indicates Total Revenue of Total Local Onnet Voice events within a given month.
+"
+VO_REV_ONNT_WK4,"Indicates Total Revenue of Total Local Onnet Voice events within a given month.
+"
+VO_REV_VAT_M1,Indicates Total VAT amount of Total Local Voice events within a given month.
+VO_REV_WK1,"Indicates Total Revenue of Total Local Voice events within a given month.
+"
+VO_REV_WK2,"Indicates Total Revenue of Total Local Voice events within a given month.
+"
+VO_REV_WK3,"Indicates Total Revenue of Total Local Voice events within a given month.
+"
+VO_REV_WK4,"Indicates Total Revenue of Total Local Voice events within a given month.
+"
+VO_REV_WKDAY_M1,"Indicates Total Revenue of Total Local Voice events within a given month.
+"
+VO_REV_WKEND_M1,"Indicates Total Revenue of Total Local Voice events within a given month.
+"
+VO_ROAM_ACT_MOU_M1,Duration of actual Voice Roaming Minutes for a specific Month
+VO_ROAM_CNT_CHRG_M1,Monthly Voice Roaming Charged Count
+VO_ROAM_CNT_CHRG_M3,Monthly Voice Roaming Charged Count
+VO_ROAM_CNT_CHRG_M6,Monthly Voice Roaming Charged Count
+VO_ROAM_CNT_CHRG_WK1,Weekly Voice Roaming Charged Count
+VO_ROAM_CNT_CHRG_WK2,Weekly Voice Roaming Charged Count
+VO_ROAM_CNT_CHRG_WK3,Weekly Voice Roaming Charged Count
+VO_ROAM_CNT_CHRG_WK4,Weekly Voice Roaming Charged Count
+VO_ROAM_CNT_M1,Monthly Voice Roaming Count
+VO_ROAM_CNT_M3,Monthly Voice Roaming Count
+VO_ROAM_CNT_M6,Monthly Voice Roaming Count
+VO_ROAM_CNT_WK1,Weekly Voice Roaming Count
+VO_ROAM_CNT_WK2,Weekly Voice Roaming Count
+VO_ROAM_CNT_WK3,Weekly Voice Roaming Count
+VO_ROAM_CNT_WK4,Weekly Voice Roaming Count
+VO_ROAM_INC_ACT_MOU_CHRG_M1,Actual Voice Roaming Charged Minutes for a specific month
+VO_ROAM_INC_ACT_MOU_FREE_M1,Actual Voice Roaming Free Incoming Minutes
+VO_ROAM_INC_ACT_MOU_M1,Total voice roaming minutes for a specific month
+VO_ROAM_INC_CNT_CHRG_M1,Monthly Voice Roaming Incoming Charged Count
+VO_ROAM_INC_CNT_CHRG_WK1,Weekly Voice Roaming Incoming Charged Count
+VO_ROAM_INC_CNT_CHRG_WK2,Weekly Voice Roaming Incoming Charged Count
+VO_ROAM_INC_CNT_CHRG_WK3,Weekly Voice Roaming Incoming Charged Count
+VO_ROAM_INC_CNT_CHRG_WK4,Weekly Voice Roaming Incoming Charged Count
+VO_ROAM_INC_CNT_FREE_M1,Monthly Voice Roaming Incoming Free Count
+VO_ROAM_INC_CNT_FREE_WK1,Weekly Voice Roaming Incoming Free Count
+VO_ROAM_INC_CNT_FREE_WK2,Weekly Voice Roaming Incoming Free Count
+VO_ROAM_INC_CNT_FREE_WK3,Weekly Voice Roaming Incoming Free Count
+VO_ROAM_INC_CNT_FREE_WK4,Weekly Voice Roaming Incoming Free Count
+VO_ROAM_INC_CNT_M1,Monthly Voice Roaming Incoming Count
+VO_ROAM_INC_CNT_WK1,Weekly Voice Roaming Incoming Count
+VO_ROAM_INC_CNT_WK2,Weekly Voice Roaming Incoming Count
+VO_ROAM_INC_CNT_WK3,Weekly Voice Roaming Incoming Count
+VO_ROAM_INC_CNT_WK4,Weekly Voice Roaming Incoming Count
+VO_ROAM_INC_MOU_CHRG_M1,Monthly Voice Roaming Incoming Charged MOU
+VO_ROAM_INC_MOU_CHRG_WK1,Weekly Voice Roaming Incoming Charged MOU
+VO_ROAM_INC_MOU_CHRG_WK2,Weekly Voice Roaming Incoming Charged MOU
+VO_ROAM_INC_MOU_CHRG_WK3,Weekly Voice Roaming Incoming Charged MOU
+VO_ROAM_INC_MOU_CHRG_WK4,Weekly Voice Roaming Incoming Charged MOU
+VO_ROAM_INC_MOU_FREE_M1,Monthly Voice Roaming Incoming Free MOU
+VO_ROAM_INC_MOU_FREE_WK1,Weekly Voice Roaming Incoming Free MOU
+VO_ROAM_INC_MOU_FREE_WK2,Weekly Voice Roaming Incoming Free MOU
+VO_ROAM_INC_MOU_FREE_WK3,Weekly Voice Roaming Incoming Free MOU
+VO_ROAM_INC_MOU_FREE_WK4,Weekly Voice Roaming Incoming Free MOU
+VO_ROAM_INC_MOU_M1,Monthly Voice Roaming Incoming MOU
+VO_ROAM_INC_MOU_WK1,Weekly Voice Roaming Incoming MOU
+VO_ROAM_INC_MOU_WK2,Weekly Voice Roaming Incoming MOU
+VO_ROAM_INC_MOU_WK3,Weekly Voice Roaming Incoming MOU
+VO_ROAM_INC_MOU_WK4,Weekly Voice Roaming Incoming MOU
+VO_ROAM_INC_REV_M1,Monthly Voice Roaming Incoming Revenue
+VO_ROAM_INC_REV_WK1,Voice Roaming Incoming Revenue Weekly
+VO_ROAM_INC_REV_WK2,Voice Roaming Incoming Revenue Weekly
+VO_ROAM_INC_REV_WK3,Voice Roaming Incoming Revenue Weekly
+VO_ROAM_INC_REV_WK4,Voice Roaming Incoming Revenue Weekly
+VO_ROAM_MOU_CHRG_M1,Monthly Voice Roaming Charged MOU
+VO_ROAM_MOU_CHRG_M3,Monthly Voice Roaming Charged MOU
+VO_ROAM_MOU_CHRG_M6,Monthly Voice Roaming Charged MOU
+VO_ROAM_MOU_CHRG_WK1,Weekly Voice Roaming Charged MOU
+VO_ROAM_MOU_CHRG_WK2,Weekly Voice Roaming Charged MOU
+VO_ROAM_MOU_CHRG_WK3,Weekly Voice Roaming Charged MOU
+VO_ROAM_MOU_CHRG_WK4,Weekly Voice Roaming Charged MOU
+VO_ROAM_MOU_FREE_M1,Voice Roaming Free Minutes of Usage
+VO_ROAM_MOU_FREE_WK1,Voice Roaming Free Minutes of Usage Week1
+VO_ROAM_MOU_FREE_WK2,Voice Roaming Free Minutes of Usage Week1
+VO_ROAM_MOU_FREE_WK3,Voice Roaming Free Minutes of Usage Week1
+VO_ROAM_MOU_FREE_WK4,Voice Roaming Free Minutes of Usage Week1
+VO_ROAM_MOU_M1,Monthly Voice Roaming MOU
+VO_ROAM_MOU_M3,Monthly Voice Roaming MOU
+VO_ROAM_MOU_M6,Monthly Voice Roaming MOU
+VO_ROAM_MOU_WK1,Weekly Voice Roaming MOU
+VO_ROAM_MOU_WK2,Weekly Voice Roaming MOU
+VO_ROAM_MOU_WK3,Weekly Voice Roaming MOU
+VO_ROAM_MOU_WK4,Weekly Voice Roaming MOU
+VO_ROAM_REV_M1,Monthly Voice Roaming Revenue
+VO_ROAM_REV_M3,Monthly Voice Roaming Revenue
+VO_ROAM_REV_M6,Monthly Voice Roaming Revenue
+VO_ROAM_REV_WK1,Weekly Voice Roaming Revenue
+VO_ROAM_REV_WK2,Weekly Voice Roaming Revenue
+VO_ROAM_REV_WK3,Weekly Voice Roaming Revenue
+VO_ROAM_REV_WK4,Weekly Voice Roaming Revenue
+VO_STD_ACT_MOU_M1,Voice National Actual Minutes of Usage
+VO_STD_ACTV_CNT_M1,Monthly Voice National Active Count
+VO_STD_CHRG_MOU_M1,Voice National Charged Minutes of Usage
+VO_STD_FREE_MOU_M1,Voice National Free Minutes of Usage
+VO_STD_INC_ACT_MOU_M1,Voice National Incoming Actual Minutes of Usage
+VO_STD_MOU_ACT_M1,Monthly Voice National Actual MOU
+VO_STD_MOU_ACT_WK1,Weekly Voice National Actual MOU
+VO_STD_MOU_ACT_WK2,Weekly Voice National Actual MOU
+VO_STD_MOU_ACT_WK3,Weekly Voice National Actual MOU
+VO_STD_MOU_ACT_WK4,Weekly Voice National Actual MOU
+VO_STD_MOU_M1,Monthly Voice National MOU
+VO_STD_MOU_WK1,Weekly Voice National MOU
+VO_STD_MOU_WK2,Weekly Voice National MOU
+VO_STD_MOU_WK3,Weekly Voice National MOU
+VO_STD_MOU_WK4,Weekly Voice National MOU
+VO_STD_OB_ACT_MOU_M1,Voice National Outbound Actual Minutes of Usage
+VO_STD_OB_ACT_REV_M1,Voice National Outbound Actual Minutes of Usage
+VO_STD_REV_M1,Indicates Total Revenue of National(STD) Voice events within a given month.
+WKLY_IDD_ALLOWANCE_MINS,Weekly International Allowance Minutes
+WKLY_IDD_MINS_OTC,Weekly International Minutes One Time Charge
+WKLY_LOCAL_DATA_ALLOWANCE_MB,Weekly Local Data Allowance MBs
+WKLY_LOCAL_DATA_OTC,Weekly Local Data One Time Charge
+WKLY_NATIONAL_ALLOWANCE_MINS,Weekly National Allowance Minutes
+WKLY_NATIONAL_MINS_OTC,Weekly National Minutes One Time Charge
+ZERO_BLNC_DYS,Number of Zero Balance Days
+CEP_COCP_FLAG,CEP or COCP Flag for Differentation-Define if account is CEP or COCP
+COUNT_ALL,Count of Subscribed on PKG for Specific RP IDs for Specific Period
+CST_PRFL_ID,Customer Profile ID - Column extract from source system CBCM
+CST_PRFL_PO_BOX, PO_BOX : Post Box-Customer Profile Post Box ID
+CST_PRFL_RL_TP,TP : Relationship Type-Customer Profile Sub Type Relation
+CST_PRFL_SUB_TP,TP : Relationship Type-Customer Profile Sub Type Relation
+CST_PRFL_UNQ_ID_IN_SRC_STM,Party Profile ID- CBCM-Party Profile ID- CBCM
+CST_UNQ_ID_IN_SRC_STM,Party ID - CBCM-Party ID - CBCM
+CUG_AMT_M1,CUG : Closed User Group-Closed User Group Amount for previous month
+CUG_MIN_USAGE_M1,Closed User Group minutes of usage for previous month
+CURRENT_HANDSET_TENURE,Purched Deviced Tenure-for Example if CST BY Apple Product as Installment for 24 months
+DATA_DWNLD_DUR_M1,Data Download Duration-Data Download Duration for previous month
+DFNDR_AREA,Defender Area-Defender Area
+DSC,Product Name (RP) Description
+EID_STATUS,Emirates ID-Emirates ID
+ELIFE_ADDON_NM,Add-on Services for E-Life Product-Add-on Services for E-Life Product
+ESY_PPD_ACT_BNS,Easy Activation Product Flag-Y or N
+ESY_PPD_RCHG_BNS,Easy Rcharge Product Flag-Y or N
+FNP_BS_UAT_FLG,FNP : Fixed Number Portability-Fixed Number Portability Flag
+FST_CHRG_USG_DT,First Charge Date-First Charge Date after free units usage
+IDD_2ND_CNTRY,CNTRY :Country-2nd top country for International call
+IDD_2ND_CNTRY_CNT,CNTRY :Country-2nd top country for International count call
+IDD_2ND_CNTRY_MOU,CNTRY :Country-2nd top country for International Minutes of Usage
+IDD_2ND_CNTRY_REV,CNTRY :Country-2nd top country for International Revenue
+IDD_3RD_CNTRY,CNTRY :Country-3rd top country for International call
+IDD_3RD_CNTRY_REV,CNTRY :Country-3rd top country for International Revenue
+IDD_TOP_3RD_CNT,CNTRY :Country-3rd top country for International count call
+IDD_TOP_3RD_MOU,CNTRY :Country-3rd top country for International Minutes of Usage
+IDD_TOP_CNTRY,CNTRY :Country-Top country for International call
+IDD_TOP_CNTRY_CNT,CNTRY :Country-Top country for International count call
+IDD_TOP_CNTRY_MOU,CNTRY :Country-Top country for International Minutes of Usage
+IDD_TOP_CNTRY_REV,CNTRY :Country-Top country for International Revenue
+IDD_TOT_REV,CNTRY :Country-Total Revenue for International Call
+LBM_CMNTY,LBM : Location Based Management Community
+LBM_EMRT,Location Based Management Emirates
+LYLTY_SMLS_LFTM_SVNG,Loyalty Smiles Life Time Savings
+MAX_CNCTD_DVCS_ETHRNT,Max. Connected Devices through ethernet
+MAX_CNCTD_DVCS_WIFI,Max. Connected Devices through WIFI
+MAX_DENOM_PKG_CHRG,DENOM : Denomnation-max. denomination pacakge that customer charge on month
+MBL_SSN_CNT,"MBL: Mobile , SSN: Session, CNT : Count-SSN :Data Session"
+MIN_AC_BLNC_M1,Min Account Balance-Min Cccount Balance for previous month
+MIN_CNCTD_DVCS_ETHRNT,Min. Connected Devices through ethernet
+MIN_CNCTD_DVCS_WIFI,Min. Connected Devices through WIFI
+MON_IDD_ALLOWANCE_MINS,Monthly Allowed minutes for International Direct Dialing-Integer
+MON_IDD_MINS_MRC,Max rate cost
+MON_LOCAL_DATA_ALLOWANCE_MB,Monthly Local Data Allowed to use on MB-Monthly Local Data Allowed to use on MB
+MON_LOCAL_DATA_MRC,MRC : Max. Rate Cost = (Price in the retail)-MRC : Max. Rate Cost = (Price in the retail)
+MON_NAT_MINS_MRC,NAT: National Cost-NAT: National Cost
+MON_NATIONAL_ALLOWANCE_MINS,Monthly National Allowed Minutes-Monthly National Allowed Minutes
+MST_PREF_LYLTY_PARTNER_NM,Most Prefered  Loyalty Partner Number
+MST_USD_VCHR_CGY_NM,Last Voucher Burnt Date 
+MST_VWD_ELIFE_CNL,Most Viewed E-Life Channel
+MST_VWD_ELIFE_CNL_CTGRY,Most Viewed E-Life Channel Category
+MST_VWD_ELIFE_CNL_DUR_SPNT,Most Viewed E-Life Channel Duration Spent-The most channel that CST spent most of time viewed
+NO_OF_DLY_PKGS,DLY : Daily-Number of Daily Package
+NO_OF_DVICS,Number of Devices Purchased from Etiaslat -Integer
+NO_OF_NBA_INTRCN,"INTRCN :Interaction , NBA: Next Best Action"
+NO_OF_WKLY_PKGS,Number of Weekly Pacakges
+NTW_ACTV_DYS_W1,How many customer Active days for each week in the month-Week1
+NTW_ACTV_DYS_W2,How many customer Active days for each week in the month-Week2
+NTW_ACTV_DYS_W3,How many customer Active days for each week in the month-Week3
+NTW_ACTV_DYS_W4,How many customer Active days for each week in the month-Week4
+NTW_AREA,Network Area of the customer
+ONT_SERIAL_NO,Optical Network Terminal for Fixed Line Products
+POST_PRE_MIG,Post to Pre Migration Flag
+PRE_POST_MIG,Pre to Post Migration Flag
+PREMIUM_CALLS_MNTLY_USG_AMT,Premium Calls Monthly Usage Amount
+PREMIUM_SMS_MNTLY_USG_AMT,Premium SMS  Monthly Usage Amount
+PREPAYMENT_CHRG,"Sum Prepayment Charge for Specific Package depends on PKG ID-if Prepayment or One Time Charge , etc."
+PREV_HANDSET_MAKE,User Handset manufacturing-common value is Unknown
+PREV_HANDSET_MODEL,Previous Handset Model
+PREV_TAC,Previous Handset TAC-Business Term : Type Allocation Code
+PRFRD_DLVRY_MD,Prefered Delivery Method
+PRIM_RATE_PLN_TP,Prime Rateplan
+PRTY_CREATION_DT,Customer Created (Started) Date in format YYYY-MM-DD HH:MM:SS
+RCR_CHRG_DSC,Description for the Recurring Charge value required each month from customer 
+REG_DT,Customer Registration Date or Change Ownership Date in format YYYY-MM-DD HH:MM:SS
+RM_FLG,"Flag to Indicate if customer exist technically on Revenue Model in DWH and Rules applied there with Values Y , N"
+SCV_CNT_PRE,Count of distinct specific product on the parent cbcm_account_id -PRODUCT_DESC = WS
+SCV_CNT_PST,Count of distinct specific product on the parent cbcm_account_id -PRODUCT_DESC = GS
+SCV_KEY,Assigned Service Product KEY
+SMARTPAY_AT_ACCOUNT_LEVEL_FLAG,Is user using smart pay solution to pay bills flag
+SMLS_FST_TXN_DT,Loyalty Smiles First Transaction Date
+SMLS_LST_TXN_DT,Loyalty Smiles Application Last Transaction Date
+SO_CHRG_ACT_MOU_M1,Total charge for social media activity in the snapshot month
+SO_CHRG_ROAM_ACT_MOU_M1,Total minutes of active roaming voice calls charged to the customers account in the previous month
+SO_STD_FREE_ACT_MOU_M1,Total National free activity minutes in the snapshot for previous month
+SOCIO_SEG,Customer Social Economic Segmentation
+SRC_B2B_ORG_UNIT_ID,"Source of B2B Organization Unit ID relation to get information like Account Owner , CONTACT_MOBILE_NO"
+TOT_MRC_ROAM_DATA_ADD_DEACT_M1,Total Monthly Recurring Charge for Data Roaming Add-on Deactivation (Snapshot Month)
+TOT_MRC_ROAM_DATA_ADDON_ACT_M1,Total Monthly Recurring Charge for Data Roaming Add-on Activation  (Snapshot Month)
+AR_NUM,Tokenized - Phone Number
+HOME_TELEPHONE,Tokenized - Phone Number
+WORK_PHONE,Tokenized - Phone Number
+EMAIL,Tokenized - Customer EMAIL
+BCRM_CST_NM,Tokenized - Customer English Name
+BCRM_PRNT_CST_NM,Tokenized - Customer Name
+MST_CLL_FWD_NUM,The Most Call Forward Number
+MST_USD_IMEI,Tokenized - Must Used IMEI
+SALES_MANAGER_EMAIL,Account Sales Owners E-mail for Contact 
+LYLTY_SMLS_CRD_NUM,Loyalty Smiles Card Number for Transaction
+FNP_DT,Fixed Number Portability Date & Time with format YYYY-MM-DD HH:MM:SS
+MOBILE_CONTACT,Customer Mobile Contact Number
+SALES_MANAGER,Account Sales Name
+SALES_MANAGER_MOBILE,Account Sales Owners Contact Mobile Number
+TOP_CALD_IDD_M1,Top called international (IDD) number in previous month 
+TOP_CALD_STD_M1,Top called National number in previous month
+TRN_NUMBER,Transaction number
+AUTH_CONTACT,This column stores the details of the authorized contact person responsible for managing or approving the accounts invoices
+EBILL_EML,Tokenized - EBill email for each customer
+dbrx_ld_dt,Technical Engineering Column to represent insertion date & time for record in Databricks (load timestamp) in format YYYY-MM-DD HH:MM:SS
